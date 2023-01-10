@@ -1,0 +1,222 @@
+{
+  "events": [
+    {
+      "string": "${CHAR} and ${char} have been evicted from the city!",
+      // TODO: Add event pics
+      "event_pics": {}
+    },
+    {
+      "string": "If ${char} and ${char} were both being chased by sweepers, who would you save?",
+      "event_pics": {}
+    },
+    {
+      "string": "${CHAR} and ${char} are teaming up to stop ${CHAR}",
+      "event_pics": {}
+    },
+    {
+      "string": "${CHAR}, ${char}, ${char}, and ${char}, have formed an office together!",
+      "event_pics": {}
+    },
+    {
+      "string": "${CHAR}, ${char}, ${char}, and ${char}, have formed a syndicate together!",
+      "event_pics": {}
+    },
+    {
+      "string": "One will protect you, the others will try to kill you: ${CHAR}, ${char}, ${char}, and ${char}",
+      "event_pics": {}
+    },
+    {
+      "string": "${CHAR} just got hit by a bus driven by ${char}!",
+      // TODO: Add event pics
+      "event_pics": {}
+    },
+    {
+      "string": "Don't tell the Head, but ${char} doesn't pay their taxes",
+      "event_pics": {}
+    },
+    {
+      "string": "Who would win in a fistfight? ${CHAR} or ${char}",
+      "event_pics": {}
+    },
+    {
+      "string": "${CHAR} pushed ${char} off a building! How could they?",
+      // TODO: Add event pics
+      "event_pics": {
+      }
+    },
+    {
+      "string": "Imagine if ${char} was part of ${faction}. That'd be pretty fucked up!",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "Imagine if ${char} was part of ${faction}. That'd be pretty neat!",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} has been found murdered and ${char}, ${char}, and ${char} are suspects. Who do you think did it?",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} and ${char} are currently being hunted by ${faction}!",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} has begun instinct work on ${char}",
+      // TODO: Add event pics (work icon)
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} has begun insight work on ${char}",
+      // TODO: Add event pics (work icon)
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} has begun attachment work on ${char}",
+      // TODO: Add event pics (work icon)
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} has begun repression work on ${char}",
+      // TODO: Add event pics (work icon)
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} is a toxic ${char} stan",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} just showed up on your doorstep. You have 10 seconds to run.",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "Who would win in a cook-off? ${CHAR} or ${char}?",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "How many ${char}s does it take to beat one ${char}?",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} busted ${char} out of prison!",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} has gone missing!",
+      // TODO: Add event pics
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} did absolutely nothing wrong",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} just dropkicked a homophobe to the Outskirts",
+      // TODO: Add event pics
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} just became a member of ${faction}!",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} is wanted for committing 27 war crimes during the Smoke War",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "Would you fight ${char} for $1M?",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} just hired ${char} to kill ${char}",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} is at ${char}'s house! What could they be doing there?",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} and ${char} made a Youtube channel together which they haven't used since 2016",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} and ${char} got into a knife fight!",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} is the CEO of LGBT!",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR}, ${char}, ${char}, and ${char} would be a fucking nightmare blunt rotation",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR}, ${char}, ${char}, and ${char} is the ideal blunt rotation",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "What would you do if you were stranded on an island with ${char}, ${char}, and ${char}?",
+      // TODO: Add event pics
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR}, ${char}, ${char}, and ${char} have formed a band!",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR}, ${char}, ${char}, and ${char} have formed an orchestra!",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "Does anyone else relate to ${char}?",
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} has convinced at least 7 people to ruin their lives by playing Lobotomy Corporation",
+      // TODO: Add event pics (game logo)
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} has convinced at least 7 people to ruin their lives by playing Library of Ruina",
+      // TODO: Add event pics (game logo)
+      "event_pics": {
+      }
+    },
+    {
+      "string": "${CHAR} has been found stealing money from ${char}!",
+      "event_pics": {
+      }
+    }
+  ]
+}

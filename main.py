@@ -1,7 +1,7 @@
 import tweepy
 from dotenv import dotenv_values
 
-from funct import logging
+from func import logging
 
 # Get client & api auth using v1
 env = dotenv_values(".env")
@@ -24,8 +24,3 @@ api = tweepy.API(auth)
 media = api.media_upload(filename="./img/test.jpg")
 res = client.create_tweet(text="Punishment Bird tweets", media_ids=[media.media_id_string])
 logging.log_action(res)
-
-# TODO: Download characters images from LobCorp
-# TODO: Download characters images from Library of Ruina
-# TODO: Set up random anything tweet generator
-# TODO: Set up Google Cloud server to run bot
