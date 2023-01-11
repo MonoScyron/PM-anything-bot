@@ -2,7 +2,7 @@
 Manipulation of the Twitter bot via API
 """
 
-from src.func import event_str_parse, list_pull, logging
+from func import event_str_parse, list_pull, logging
 
 
 def bot_tweet(bot_api, bot_client):

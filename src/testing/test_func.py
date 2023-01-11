@@ -1,5 +1,5 @@
 import json
-from src.func import logging
+from func import logging
 
 
 def check_images():

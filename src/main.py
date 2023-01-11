@@ -1,7 +1,7 @@
 import tweepy
 from time import sleep
 from dotenv import dotenv_values
-from src.func import bot_tweet
+from func import bot_tweet
 
 # Get client & api auth using v1
 env = dotenv_values(".env")
