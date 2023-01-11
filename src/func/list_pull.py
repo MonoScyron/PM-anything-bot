@@ -1,3 +1,7 @@
+"""
+Pull objects from list files
+"""
+
 import json
 import random
 from typing import Tuple, Union
@@ -8,7 +12,7 @@ def pull_event() -> Tuple[str, Union[dict, None]]:
     Pulls a random event from the list of events
     :return: Unparsed tweet text, event pictures dictionary if applicable
     """
-    pull_file = open('event_list.json')
+    pull_file = open('./lists/event_list.json')
     pull_list = json.load(pull_file)
     events = pull_list['events']
     pull_file.close()
@@ -29,7 +33,7 @@ def pull_character(is_cap) -> Tuple[str, str]:
     :param is_cap:Whether to capitalize "the" in a character's title
     :return:Character name, path to character's picture
     """
-    pull_file = open('pull_list.json')
+    pull_file = open('./lists/pull_list.json')
     pull_list = json.load(pull_file)
     chars_d = pull_list['chars']
     abnos_d = pull_list['abnos']
@@ -50,7 +54,7 @@ def pull_faction(is_cap) -> Tuple[str, str]:
     :param is_cap:Whether to capitalize "the" in a faction's title
     :return:Faction name, path to faction's icon
     """
-    pull_file = open('pull_list.json')
+    pull_file = open('./lists/pull_list.json')
     pull_list = json.load(pull_file)
     factions_d = pull_list['factions']
     pull_file.close()

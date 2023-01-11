@@ -1,6 +1,9 @@
-from typing import Tuple
+"""
+Manipulate raw event objects from event lists
+"""
 
-from func import list_pull, logging
+from typing import Tuple
+from src.func import list_pull, logging
 
 
 def parse_event(event_text, event_pics_d) -> Tuple[str, list[str]]:

@@ -1,7 +1,7 @@
 import tweepy
 from time import sleep
 from dotenv import dotenv_values
-from func import logging, event_str_parse, list_pull
+from src.func import bot_tweet
 
 # Get client & api auth using v1
 env = dotenv_values(".env")
@@ -22,13 +22,5 @@ api = tweepy.API(auth)
 
 # Tweet indefinitely every 30 mins
 while True:
-    event_text, event_pics_d = list_pull.pull_event()
-    parsed_text, pics = event_str_parse.parse_event(event_text=event_text, event_pics_d=event_pics_d)
-
-    media_ids = []
-    for p in pics:
-        media_ids.append(api.media_upload(filename=p).media_id_string)
-    res = client.create_tweet(text=parsed_text, media_ids=media_ids)
-
-    logging.log_action(res)
+    bot_tweet.bot_tweet(bot_api=api, bot_client=client)
     sleep(30 * 60)
