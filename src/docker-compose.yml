@@ -1,5 +1,0 @@
-version: '3'
-services:
-  pm_bot:
-    image: monoscyron/pm-anything-bot
-    env_file: .env
