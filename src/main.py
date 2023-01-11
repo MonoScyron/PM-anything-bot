@@ -1,7 +1,9 @@
 import tweepy
+from tweepy import TweepyException
 from time import sleep
 from dotenv import dotenv_values
-from func import bot_tweet
+
+from func import bot_tweet, logging
 
 # Get client & api auth using v1
 env = dotenv_values(".env")
@@ -22,5 +24,11 @@ api = tweepy.API(auth)
 
 # Tweet indefinitely every 30 mins
 while True:
-    bot_tweet.bot_tweet(bot_api=api, bot_client=client)
-    sleep(30 * 60)
+    try:
+        bot_tweet.bot_tweet(bot_api=api, bot_client=client)
+        sleep(30 * 60)
+
+    # On exception, log error, wait 30 seconds and try again
+    except TweepyException as e:
+        logging.log_error(e)
+        sleep(30)
