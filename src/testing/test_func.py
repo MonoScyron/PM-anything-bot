@@ -1,5 +1,4 @@
 import json
-from func import logging
 
 
 def check_images():
@@ -17,13 +16,4 @@ def check_images():
             open(f'.{curr_d[curr_k]}')
 
 
-def check_logs():
-    """
-    Checks to see if run.log is in the correct position
-    :return:None
-    """
-    logging.log_info("This is a test!")
-
-
-check_logs()
 check_images()

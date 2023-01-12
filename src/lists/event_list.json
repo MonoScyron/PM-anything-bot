@@ -31,7 +31,7 @@
       "event_text": "Don't tell the Head, but ${char} doesn't pay their taxes"
     },
     {
-      "event_text": "Who would win in a fistfight? ${CHAR} or ${char}"
+      "event_text": "Who would win in a fistfight? ${CHAR} or ${char}?"
     },
     {
       "event_text": "${CHAR} pushed ${char} off a building! How could they?",
