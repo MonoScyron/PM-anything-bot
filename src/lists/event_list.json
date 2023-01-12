@@ -91,6 +91,12 @@
       "event_text": "${CHAR} busted ${char} out of prison!"
     },
     {
+      "event_text": "${CHAR} has been sentenced to prison for identity theft!",
+      "event_pic": {
+        "1": "./img/events/prison.png"
+      }
+    },
+    {
       "event_text": "${CHAR} has gone missing!",
       "event_pic": {
         "1": "./img/events/missing.png"
@@ -167,6 +173,51 @@
     },
     {
       "event_text": "${CHAR} has been found stealing money from ${char}!"
+    },
+    {
+      "event_text": "${CHAR} is currently in a police chase!",
+      "event_pic": {
+        "1": "./img/events/police.png"
+      }
+    },
+    {
+      "event_text": "${CHAR} and ${char} are currently in a police chase!",
+      "event_pic": {
+        "2": "./img/events/police.png"
+      }
+    },
+    {
+      "event_text": "What would ${char}'s Final Smash be?",
+      "event_pic": {
+        "1": "./img/events/finalSmash.png"
+      }
+    },
+    {
+      "event_text": "What do you think ${char} has on their playlist?"
+    },
+    {
+      "event_text": "${CHAR} just got Great Split: Horizontaled",
+      "event_pic": {
+        "1": "./img/events/greatSplitHorizontal.png"
+      }
+    },
+    {
+      "event_text": "${CHAR} has been added to Fortnite!",
+      "event_pic": {
+        "1": "./img/events/fortnite.png"
+      }
+    },
+    {
+      "event_text": "${CHAR} has been added to Genshin Impact!",
+      "event_pic": {
+        "1": "./img/events/genshin.png"
+      }
+    },
+    {
+      "event_text": "${CHAR} has been added to Roblox!",
+      "event_pic": {
+        "1": "./img/events/roblox.png"
+      }
     }
   ]
 }
