@@ -82,7 +82,10 @@
       "event_text": "${CHAR} just showed up on your doorstep. You have 10 seconds to run."
     },
     {
-      "event_text": "Who would win in a cook-off? ${CHAR} or ${char}?"
+      "event_text": "Who would win in a cook-off? ${CHAR} or ${char}?",
+      "event_pic": {
+        "2": "./img/events/cookoff.png"
+      }
     },
     {
       "event_text": "How many ${char}s does it take to beat one ${char}?"
@@ -121,7 +124,16 @@
       "event_text": "Would you fight ${char} for 1 million dollars?"
     },
     {
-      "event_text": "${CHAR} just hired ${char} to kill ${char}"
+      "event_text": "${CHAR} has hired ${char} to kill ${char}"
+    },
+    {
+      "event_text": "${FACTION} has hired ${char} to kill ${char}"
+    },
+    {
+      "event_text": "${CHAR} has hired ${faction} to kill ${char}"
+    },
+    {
+      "event_text": "${FACTION} has hired ${faction} to kill ${char}"
     },
     {
       "event_text": "${CHAR} is at ${char}'s house! What could they be doing there?"
