@@ -1,0 +1,10 @@
+{
+  "chars": {
+    "Valerie": "./img/characters/Valerie.png",
+    "Wang": "./img/characters/Wang.png",
+    "The Crying Children": "./img/characters/The Crying Children.png",
+    "The Pianist": "./img/characters/The Pianist.png"
+  },
+  "abnos": {},
+  "factions": {}
+}

@@ -12,7 +12,7 @@ def bot_tweet(bot_api, bot_client):
     :param bot_client:Authenticated client of the bot
     :return:None
     """
-    event_text, event_pics_d = list_pull.pull_event()
+    event_text, event_pics_d = list_pull.pull_event('./lists/event_list.json')
     parsed_text, pics = event_str_parse.parse_event(event_text=event_text, event_pics_d=event_pics_d)
 
     media_ids = []

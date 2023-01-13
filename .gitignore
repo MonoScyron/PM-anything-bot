@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Testing
+test_event_list.json
+test_pull_list.json

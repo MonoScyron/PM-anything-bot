@@ -7,12 +7,13 @@ import random
 from typing import Tuple, Union
 
 
-def pull_event() -> Tuple[str, Union[dict, None]]:
+def pull_event(pull_path) -> Tuple[str, Union[dict, None]]:
     """
     Pulls a random event from the list of events
+    :param pull_path: Path of the event pull file
     :return: Unparsed tweet text, event pictures dictionary if applicable
     """
-    pull_file = open('./lists/event_list.json')
+    pull_file = open(pull_path)
     pull_list = json.load(pull_file)
     events = pull_list['events']
     pull_file.close()
@@ -27,13 +28,15 @@ def pull_event() -> Tuple[str, Union[dict, None]]:
         return event_text, None
 
 
-def pull_character(is_cap) -> Tuple[str, str]:
+def pull_character(is_cap, pull_path, is_def=True) -> Tuple[str, str]:
     """
     Pulls a random character from the list of characters
     :param is_cap:Whether to capitalize "the" in a character's title
+    :param is_def:Whether to include the definitive of a character ("The")
+    :param pull_path: Path of the character pull file
     :return:Character name, path to character's picture
     """
-    pull_file = open('./lists/pull_list.json')
+    pull_file = open(pull_path)
     pull_list = json.load(pull_file)
     chars_d = pull_list['chars']
     abnos_d = pull_list['abnos']
@@ -42,19 +45,23 @@ def pull_character(is_cap) -> Tuple[str, str]:
     chars_d = chars_d | abnos_d
     char, char_pic_path = random.choice(list(chars_d.items()))
 
-    if not is_cap and char[:3] == "The":
-        char = "the" + char[3:]
+    if char[:3] == "The":
+        if not is_def:
+            char = char[4:]
+        elif not is_cap:
+            char = "the" + char[3:]
 
     return char, char_pic_path
 
 
-def pull_faction(is_cap) -> Tuple[str, str]:
+def pull_faction(is_cap, pull_path) -> Tuple[str, str]:
     """
     Pulls a random faction from the list of factions
     :param is_cap:Whether to capitalize "the" in a faction's title
+    :param pull_path: Path of the faction pull file
     :return:Faction name, path to faction's icon
     """
-    pull_file = open('./lists/pull_list.json')
+    pull_file = open(pull_path)
     pull_list = json.load(pull_file)
     factions_d = pull_list['factions']
     pull_file.close()
