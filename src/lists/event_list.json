@@ -242,6 +242,30 @@
       "event_pic": {
         "1": "./img/events/ayin.png"
       }
+    },
+    {
+      "event_text": "${CHAR} solos"
+    },
+    {
+      "event_text": "${CHAR} has filed a restraining order against ${char}",
+      "event_pic": {
+        "2": "./img/events/restrainingOrder.png"
+      }
+    },
+    {
+      "event_text": "i love ${char} i want to put them in a blender"
+    },
+    {
+      "event_text": "${CHAR} was the impostor.",
+      "event_pic": {
+        "1": "./img/events/impostor.png"
+      }
+    },
+    {
+      "event_text": "${CHAR} was not the impostor.",
+      "event_pic": {
+        "1": "./img/events/impostor.png"
+      }
     }
   ]
 }
