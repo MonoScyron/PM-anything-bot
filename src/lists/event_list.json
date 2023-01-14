@@ -230,6 +230,18 @@
       "event_pic": {
         "1": "./img/events/roblox.png"
       }
+    },
+    {
+      "event_text": "${CHAR} knows it's Ayin",
+      "event_pic": {
+        "1": "./img/events/ayin.png"
+      }
+    },
+    {
+      "event_text": "${CHAR} doesn't know it's Ayin",
+      "event_pic": {
+        "1": "./img/events/ayin.png"
+      }
     }
   ]
 }
