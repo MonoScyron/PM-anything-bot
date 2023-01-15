@@ -266,6 +266,12 @@
       "event_pic": {
         "1": "./img/events/impostor.png"
       }
+    },
+    {
+      "event_text": "${CHAR} is listening to ASMR",
+      "event_pic": {
+        "1": "./img/events/asmr.png"
+      }
     }
   ]
 }
