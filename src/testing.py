@@ -24,9 +24,18 @@ def check_images():
     event_list = event_list['events']
 
     for curr_d in event_list:
-        if 'event_pic' in curr_d:
-            for k in curr_d['event_pic']:
-                open(f'{curr_d["event_pic"][k]}')
+        if 'event_text' not in curr_d:
+            sub_event_list = curr_d['sub_events']
+            for sub_curr_d in sub_event_list:
+                print(sub_curr_d['event_text'])
+                if 'event_pic' in sub_curr_d:
+                    for k in sub_curr_d['event_pic']:
+                        open(f'{sub_curr_d["event_pic"][k]}')
+        else:
+            print(curr_d['event_text'])
+            if 'event_pic' in curr_d:
+                for k in curr_d['event_pic']:
+                    open(f'{curr_d["event_pic"][k]}')
 
 
 def test_list_pull():
@@ -41,4 +50,4 @@ def test_list_pull():
 
 
 check_images()
-test_list_pull()
+# test_list_pull()

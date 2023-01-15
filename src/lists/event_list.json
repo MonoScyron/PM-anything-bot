@@ -13,10 +13,14 @@
       "event_text": "${CHAR} and ${char} are teaming up to stop ${CHAR}"
     },
     {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an office together!"
-    },
-    {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a syndicate together!"
+      "sub_events": [
+        {
+          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an office together!"
+        },
+        {
+          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a syndicate together!"
+        }
+      ]
     },
     {
       "event_text": "One will protect you, the others will try to kill you: ${CHAR}, ${char}, ${char}, and ${char}"
@@ -40,10 +44,14 @@
       }
     },
     {
-      "event_text": "Imagine if ${char} was part of ${faction}. That'd be pretty fucked up!"
-    },
-    {
-      "event_text": "Imagine if ${char} was part of ${faction}. That'd be pretty neat!"
+      "sub_events": [
+        {
+          "event_text": "Imagine if ${char} was part of ${faction}. That'd be pretty fucked up!"
+        },
+        {
+          "event_text": "Imagine if ${char} was part of ${faction}. That'd be pretty neat!"
+        }
+      ]
     },
     {
       "event_text": "${CHAR} has been found murdered and ${char}, ${char}, and ${char} are suspects. Who do you think did it?"
@@ -52,28 +60,32 @@
       "event_text": "${CHAR} and ${char} are currently being hunted by ${faction}!"
     },
     {
-      "event_text": "${CHAR} has begun instinct work on ${char}",
-      "event_pic": {
-        "1": "./img/events/instinct.png"
-      }
-    },
-    {
-      "event_text": "${CHAR} has begun insight work on ${char}",
-      "event_pic": {
-        "1": "./img/events/insight.png"
-      }
-    },
-    {
-      "event_text": "${CHAR} has begun attachment work on ${char}",
-      "event_pic": {
-        "1": "./img/events/attachment.png"
-      }
-    },
-    {
-      "event_text": "${CHAR} has begun repression work on ${char}",
-      "event_pic": {
-        "1": "./img/events/repression.png"
-      }
+      "sub_events": [
+        {
+          "event_text": "${CHAR} has begun instinct work on ${char}",
+          "event_pic": {
+            "1": "./img/events/instinct.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} has begun insight work on ${char}",
+          "event_pic": {
+            "1": "./img/events/insight.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} has begun attachment work on ${char}",
+          "event_pic": {
+            "1": "./img/events/attachment.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} has begun repression work on ${char}",
+          "event_pic": {
+            "1": "./img/events/repression.png"
+          }
+        }
+      ]
     },
     {
       "event_text": "${CHAR} is a toxic ${char} stan"
@@ -106,10 +118,14 @@
       }
     },
     {
-      "event_text": "${CHAR} did absolutely nothing wrong"
-    },
-    {
-      "event_text": "${CHAR} did absolutely everything wrong"
+      "sub_events": [
+        {
+          "event_text": "${CHAR} did absolutely nothing wrong"
+        },
+        {
+          "event_text": "${CHAR} did absolutely everything wrong"
+        }
+      ]
     },
     {
       "event_text": "${CHAR} just dropkicked a homophobe to the Outskirts",
@@ -127,16 +143,20 @@
       "event_text": "Would you fight ${char} for 1 million dollars?"
     },
     {
-      "event_text": "${CHAR} has hired ${char} to kill ${char}"
-    },
-    {
-      "event_text": "${FACTION} has hired ${char} to kill ${char}"
-    },
-    {
-      "event_text": "${CHAR} has hired ${faction} to kill ${char}"
-    },
-    {
-      "event_text": "${FACTION} has hired ${faction} to kill ${char}"
+      "sub_events": [
+        {
+          "event_text": "${CHAR} has hired ${char} to kill ${char}"
+        },
+        {
+          "event_text": "${FACTION} has hired ${char} to kill ${char}"
+        },
+        {
+          "event_text": "${CHAR} has hired ${faction} to kill ${char}"
+        },
+        {
+          "event_text": "${FACTION} has hired ${faction} to kill ${char}"
+        }
+      ]
     },
     {
       "event_text": "${CHAR} is at ${char}'s house! What could they be doing there?"
@@ -154,10 +174,14 @@
       }
     },
     {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} would be a fucking nightmare blunt rotation"
-    },
-    {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} is the ideal blunt rotation"
+      "sub_events": [
+        {
+          "event_text": "${CHAR}, ${char}, ${char}, and ${char} would be a fucking nightmare blunt rotation"
+        },
+        {
+          "event_text": "${CHAR}, ${char}, ${char}, and ${char} is the ideal blunt rotation"
+        }
+      ]
     },
     {
       "event_text": "What would you do if you were stranded on an island with ${char}, ${char}, and ${char}?",
@@ -166,40 +190,52 @@
       }
     },
     {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a band!"
-    },
-    {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an orchestra!"
+      "sub_events": [
+        {
+          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a band!"
+        },
+        {
+          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an orchestra!"
+        }
+      ]
     },
     {
       "event_text": "Does anyone else relate to ${char}?"
     },
     {
-      "event_text": "${CHAR} has convinced at least 7 people to play Lobotomy Corporation, changing their brain chemistries forever.",
-      "event_pic": {
-        "1": "./img/events/lobotomyCorporation.png"
-      }
-    },
-    {
-      "event_text": "${CHAR} has convinced at least 7 people to play Library of Ruina, changing their brain chemistries forever.",
-      "event_pic": {
-        "1": "./img/events/libraryOfRuina.png"
-      }
+      "sub_events": [
+        {
+          "event_text": "${CHAR} has convinced at least 7 people to play Lobotomy Corporation, changing their brain chemistries forever.",
+          "event_pic": {
+            "1": "./img/events/lobotomyCorporation.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} has convinced at least 7 people to play Library of Ruina, changing their brain chemistries forever.",
+          "event_pic": {
+            "1": "./img/events/libraryOfRuina.png"
+          }
+        }
+      ]
     },
     {
       "event_text": "${CHAR} has been found stealing money from ${char}!"
     },
     {
-      "event_text": "${CHAR} is currently in a police chase!",
-      "event_pic": {
-        "1": "./img/events/police.png"
-      }
-    },
-    {
-      "event_text": "${CHAR} and ${char} are currently in a police chase!",
-      "event_pic": {
-        "2": "./img/events/police.png"
-      }
+      "sub_events": [
+        {
+          "event_text": "${CHAR} is currently in a police chase!",
+          "event_pic": {
+            "1": "./img/events/police.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} and ${char} are currently in a police chase!",
+          "event_pic": {
+            "2": "./img/events/police.png"
+          }
+        }
+      ]
     },
     {
       "event_text": "What would ${char}'s Final Smash be?",
@@ -217,34 +253,42 @@
       }
     },
     {
-      "event_text": "${CHAR} has been added to Fortnite!",
-      "event_pic": {
-        "1": "./img/events/fortnite.png"
-      }
+      "sub_events": [
+        {
+          "event_text": "${CHAR} has been added to Fortnite!",
+          "event_pic": {
+            "1": "./img/events/fortnite.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} has been added to Genshin Impact!",
+          "event_pic": {
+            "1": "./img/events/genshin.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} has been added to Roblox!",
+          "event_pic": {
+            "1": "./img/events/roblox.png"
+          }
+        }
+      ]
     },
     {
-      "event_text": "${CHAR} has been added to Genshin Impact!",
-      "event_pic": {
-        "1": "./img/events/genshin.png"
-      }
-    },
-    {
-      "event_text": "${CHAR} has been added to Roblox!",
-      "event_pic": {
-        "1": "./img/events/roblox.png"
-      }
-    },
-    {
-      "event_text": "${CHAR} knows it's Ayin",
-      "event_pic": {
-        "1": "./img/events/ayin.png"
-      }
-    },
-    {
-      "event_text": "${CHAR} doesn't know it's Ayin",
-      "event_pic": {
-        "1": "./img/events/ayin.png"
-      }
+      "sub_events": [
+        {
+          "event_text": "${CHAR} knows it's Ayin",
+          "event_pic": {
+            "1": "./img/events/ayin.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} doesn't know it's Ayin",
+          "event_pic": {
+            "1": "./img/events/ayin.png"
+          }
+        }
+      ]
     },
     {
       "event_text": "${CHAR} solos"
@@ -259,22 +303,105 @@
       "event_text": "i love ${char} i want to put them in a blender"
     },
     {
-      "event_text": "${CHAR} was the impostor.",
-      "event_pic": {
-        "1": "./img/events/impostor.png"
-      }
-    },
-    {
-      "event_text": "${CHAR} was not the impostor.",
-      "event_pic": {
-        "1": "./img/events/impostor.png"
-      }
+      "sub_events": [
+        {
+          "event_text": "${CHAR} was the impostor.",
+          "event_pic": {
+            "1": "./img/events/impostor.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} was not the impostor.",
+          "event_pic": {
+            "1": "./img/events/impostor.png"
+          }
+        }
+      ]
     },
     {
       "event_text": "${CHAR} is listening to ASMR",
       "event_pic": {
         "1": "./img/events/asmr.png"
       }
+    },
+    {
+      "sub_events": [
+        {
+          "event_text": "${CHAR} is the new Patron Librarian of the Floor of General Works!",
+          "event_pic": {
+            "1": "./img/events/genWorksFloor.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is the new Patron Librarian of the Floor of History!",
+          "event_pic": {
+            "1": "./img/events/historyFloor.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is the new Patron Librarian of the Floor of Technological Sciences!",
+          "event_pic": {
+            "1": "./img/events/techSciFloor.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is the new Patron Librarian of the Floor of Literature!",
+          "event_pic": {
+            "1": "./img/events/literatureFloor.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is the new Patron Librarian of the Floor of Art!",
+          "event_pic": {
+            "1": "./img/events/artFloor.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is the new Patron Librarian of the Floor of Natural Sciences!",
+          "event_pic": {
+            "1": "./img/events/natSciFloor.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is the new Patron Librarian of the Floor of Language!",
+          "event_pic": {
+            "1": "./img/events/languageFloor.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is the new Patron Librarian of the Floor of Social Sciences!",
+          "event_pic": {
+            "1": "./img/events/socSciFloor.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is the new Patron Librarian of the Floor of Philosophy!",
+          "event_pic": {
+            "1": "./img/events/philosophyFloor.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is the new Patron Librarian of the Floor of Religion!",
+          "event_pic": {
+            "1": "./img/events/religionFloor.png"
+          }
+        }
+      ]
+    },
+    {
+      "event_text": "${CHAR} signed the invitation to the Library"
+    },
+    {
+      "event_text": "${CHAR}, ${char}, and ${char} went to HamHamPangPang together!",
+      "event_pic": {
+        "1": "./img/events/hamhampangpang.png"
+      }
+    },
+    {
+      "event_text": "${CHAR} hopes they don't have to fight their evil shadow self today"
+    },
+    {
+      "event_text": "${CHAR} has deactivated their Twitter account"
     }
   ]
 }

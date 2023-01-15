@@ -15,11 +15,18 @@ def pull_event(pull_path) -> Tuple[str, Union[dict, None]]:
     """
     pull_file = open(pull_path)
     pull_list = json.load(pull_file)
-    events = pull_list['events']
-    pull_file.close()
 
+    events = pull_list['events']
     c_index = random.randrange(0, len(events))
     event = events[c_index]
+    
+    pull_file.close()
+
+    if 'event_text' not in event:
+        events = event['sub_events']
+        c_index = random.randrange(0, len(events))
+        event = events[c_index]
+
     event_text = event['event_text']
     if 'event_pic' in event:
         event_pics_d = event['event_pic']
