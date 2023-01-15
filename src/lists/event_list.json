@@ -109,6 +109,9 @@
       "event_text": "${CHAR} did absolutely nothing wrong"
     },
     {
+      "event_text": "${CHAR} did absolutely everything wrong"
+    },
+    {
       "event_text": "${CHAR} just dropkicked a homophobe to the Outskirts",
       "event_pic": {
         "1": "./img/events/outskirts.png"
