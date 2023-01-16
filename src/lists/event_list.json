@@ -370,7 +370,7 @@
     {
       "event_text": "${CHAR}, ${char}, and ${char} went to HamHamPangPang together!",
       "event_pic": {
-        "1": "./img/events/hamhampangpang.png"
+        "3": "./img/events/hamhampangpang.png"
       }
     },
     {
