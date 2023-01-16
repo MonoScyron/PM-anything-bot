@@ -9,6 +9,7 @@ from typing import Tuple, Union
 from func import logging
 
 
+# noinspection PyBroadException
 def pull_event(pull_path) -> Tuple[str, Union[dict, None]]:
     """
     Pulls a random event from the list of events
@@ -37,7 +38,7 @@ def pull_event(pull_path) -> Tuple[str, Union[dict, None]]:
         else:
             return event_text, None
 
-    except Exception as e:
+    except Exception:
         error_msg = f'pull_event() - {event}'
         logging.log_error(error_msg)
 

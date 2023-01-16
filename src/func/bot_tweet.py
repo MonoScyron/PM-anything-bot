@@ -12,12 +12,8 @@ def bot_tweet(bot_api, bot_client):
     :param bot_client:Authenticated client of the bot
     :return:None
     """
-    try:
-        event_text, event_pics_d = list_pull.pull_event('./lists/event_list.json')
-        parsed_text, pics = event_str_parse.parse_event(event_text=event_text, event_pics_d=event_pics_d)
-    except Exception as e:
-        error_msg = f'ERROR CONSTRUCTING TWEET = {event_text} - {event_pics_d} - {parsed_text} - {pics}'
-        logging.error(error_msg)
+    event_text, event_pics_d = list_pull.pull_event('./lists/event_list.json')
+    parsed_text, pics = event_str_parse.parse_event(event_text=event_text, event_pics_d=event_pics_d)
 
     media_ids = []
     for p in pics:
