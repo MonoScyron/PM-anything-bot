@@ -26,5 +26,3 @@ def bot_tweet(bot_api, bot_client):
 
     if res.errors:
         logging.log_error(res)
-    else:
-        logging.log_response(res)
