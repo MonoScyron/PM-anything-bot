@@ -6,6 +6,8 @@ import json
 import random
 from typing import Tuple, Union
 
+from func import logging
+
 
 def pull_event(pull_path) -> Tuple[str, Union[dict, None]]:
     """
@@ -19,20 +21,25 @@ def pull_event(pull_path) -> Tuple[str, Union[dict, None]]:
     events = pull_list['events']
     c_index = random.randrange(0, len(events))
     event = events[c_index]
-    
+
     pull_file.close()
 
-    if 'event_text' not in event:
-        events = event['sub_events']
-        c_index = random.randrange(0, len(events))
-        event = events[c_index]
+    try:
+        if 'event_text' not in event:
+            events = event['sub_events']
+            c_index = random.randrange(0, len(events))
+            event = events[c_index]
 
-    event_text = event['event_text']
-    if 'event_pic' in event:
-        event_pics_d = event['event_pic']
-        return event_text, event_pics_d
-    else:
-        return event_text, None
+        event_text = event['event_text']
+        if 'event_pic' in event:
+            event_pics_d = event['event_pic']
+            return event_text, event_pics_d
+        else:
+            return event_text, None
+
+    except Exception as e:
+        error_msg = f'pull_event() - {event}'
+        logging.log_error(error_msg)
 
 
 def pull_character(is_cap, pull_path, is_def=True) -> Tuple[str, str]:

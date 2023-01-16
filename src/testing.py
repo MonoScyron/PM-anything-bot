@@ -46,8 +46,9 @@ def test_list_pull():
     event_text, event_pics_d = list_pull.pull_event(pull_path='./lists/test_event_list.json')
     parsed_text, pics = event_str_parse.parse_event(event_text=event_text, event_pics_d=event_pics_d,
                                                     char_path='./lists/test_pull_list.json')
+
     print(f'{parsed_text} - {pics}')
 
 
-check_images()
-# test_list_pull()
+# check_images()
+test_list_pull()
