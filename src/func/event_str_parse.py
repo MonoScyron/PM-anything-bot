@@ -56,7 +56,7 @@ def parse_event_text(text, char_path) -> Tuple[str, list[str]]:
             elif case == "faction":
                 name, pic = list_pull.pull_faction(False, pull_path=char_path)
             else:
-                logging.log_error("event_str_parse.py couldn't find case for parsing event text.")
+                logging.log_error(f"event_str_parse.py couldn't find case for parsing event text: {case}")
 
             split_text[i] = name + t
             pics.append(pic)
