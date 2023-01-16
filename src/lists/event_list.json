@@ -49,7 +49,7 @@
       "event_text": "${CHAR} has been found murdered and ${char}, ${char}, and ${char} are suspects. Who do you think did it?"
     },
     {
-      "event_text": "${CHAR} and ${char} are currently being hunted by ${faction}!"
+      "event_text": "${CHAR} and ${char} are being hunted by ${faction}!"
     },
     {
       "sub_events": [
@@ -378,6 +378,122 @@
     },
     {
       "event_text": "${CHAR} has deactivated their Twitter account"
+    },
+    {
+      "sub_events": [
+        {
+          "event_text": "${CHAR} is currently sobbing over Salt, Pepper, Birds, And the Thought Police at 3am",
+          "event_pic": {
+            "1": "./img/events/thoughtPolice.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently sobbing over Poems of a Machine at 3am",
+          "event_pic": {
+            "1": "./img/events/poemsOfAMachine.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently sobbing over Gone Angels at 3am",
+          "event_pic": {
+            "1": "./img/events/goneAngels.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently sobbing over Children of the City at 3am",
+          "event_pic": {
+            "1": "./img/events/childrenOfTheCity.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently sobbing over Iron Lotus at 3am",
+          "event_pic": {
+            "1": "./img/events/ironLotus.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently sobbing over And Then Is Heard No More at 3am",
+          "event_pic": {
+            "1": "./img/events/heardNoMore.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently sobbing over From a Place of Love at 3am",
+          "event_pic": {
+            "1": "./img/events/placeOfLove.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently sobbing over String Theocracy at 3am",
+          "event_pic": {
+            "1": "./img/events/stringTheocracy.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently sobbing over In Hell We Live, Lament at 3am",
+          "event_pic": {
+            "1": "./img/events/lament.png"
+          }
+        }
+      ]
+    },
+    {
+      "sub_events": [
+        {
+          "event_text": "${CHAR} is currently headbanging to Salt, Pepper, Birds, And the Thought Police at 3am",
+          "event_pic": {
+            "1": "./img/events/thoughtPolice.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently headbanging to Poems of a Machine at 3am",
+          "event_pic": {
+            "1": "./img/events/poemsOfAMachine.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently headbanging to Gone Angels at 3am",
+          "event_pic": {
+            "1": "./img/events/goneAngels.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently headbanging to Children of the City at 3am",
+          "event_pic": {
+            "1": "./img/events/childrenOfTheCity.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently headbanging to Iron Lotus at 3am",
+          "event_pic": {
+            "1": "./img/events/ironLotus.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently headbanging to And Then Is Heard No More at 3am",
+          "event_pic": {
+            "1": "./img/events/heardNoMore.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently headbanging to From a Place of Love at 3am",
+          "event_pic": {
+            "1": "./img/events/placeOfLove.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently headbanging to String Theocracy at 3am",
+          "event_pic": {
+            "1": "./img/events/stringTheocracy.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} is currently headbanging to In Hell We Live, Lament at 3am",
+          "event_pic": {
+            "1": "./img/events/lament.png"
+          }
+        }
+      ]
     }
   ]
 }
