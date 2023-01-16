@@ -13,14 +13,10 @@
       "event_text": "${CHAR} and ${char} are teaming up to stop ${CHAR}"
     },
     {
-      "sub_events": [
-        {
-          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an office together!"
-        },
-        {
-          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a syndicate together!"
-        }
-      ]
+      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an office together!"
+    },
+    {
+      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a syndicate together!"
     },
     {
       "event_text": "One will protect you, the others will try to kill you: ${CHAR}, ${char}, ${char}, and ${char}"
@@ -44,14 +40,10 @@
       }
     },
     {
-      "sub_events": [
-        {
-          "event_text": "Imagine if ${char} was part of ${faction}. That'd be pretty fucked up!"
-        },
-        {
-          "event_text": "Imagine if ${char} was part of ${faction}. That'd be pretty neat!"
-        }
-      ]
+      "event_text": "Imagine if ${char} was part of ${faction}. That'd be pretty fucked up!"
+    },
+    {
+      "event_text": "Imagine if ${char} was part of ${faction}. That'd be pretty neat!"
     },
     {
       "event_text": "${CHAR} has been found murdered and ${char}, ${char}, and ${char} are suspects. Who do you think did it?"
@@ -118,14 +110,10 @@
       }
     },
     {
-      "sub_events": [
-        {
-          "event_text": "${CHAR} did absolutely nothing wrong"
-        },
-        {
-          "event_text": "${CHAR} did absolutely everything wrong"
-        }
-      ]
+      "event_text": "${CHAR} did absolutely nothing wrong"
+    },
+    {
+      "event_text": "${CHAR} did absolutely everything wrong"
     },
     {
       "event_text": "${CHAR} just dropkicked a homophobe to the Outskirts",
@@ -174,14 +162,10 @@
       }
     },
     {
-      "sub_events": [
-        {
-          "event_text": "${CHAR}, ${char}, ${char}, and ${char} would be a fucking nightmare blunt rotation"
-        },
-        {
-          "event_text": "${CHAR}, ${char}, ${char}, and ${char} is the ideal blunt rotation"
-        }
-      ]
+      "event_text": "${CHAR}, ${char}, ${char}, and ${char} would be a fucking nightmare blunt rotation"
+    },
+    {
+      "event_text": "${CHAR}, ${char}, ${char}, and ${char} is the ideal blunt rotation"
     },
     {
       "event_text": "What would you do if you were stranded on an island with ${char}, ${char}, and ${char}?",
@@ -190,33 +174,25 @@
       }
     },
     {
-      "sub_events": [
-        {
-          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a band!"
-        },
-        {
-          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an orchestra!"
-        }
-      ]
+      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a band!"
+    },
+    {
+      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an orchestra!"
     },
     {
       "event_text": "Does anyone else relate to ${char}?"
     },
     {
-      "sub_events": [
-        {
-          "event_text": "${CHAR} has convinced at least 7 people to play Lobotomy Corporation, changing their brain chemistries forever.",
-          "event_pic": {
-            "1": "./img/events/lobotomyCorporation.png"
-          }
-        },
-        {
-          "event_text": "${CHAR} has convinced at least 7 people to play Library of Ruina, changing their brain chemistries forever.",
-          "event_pic": {
-            "1": "./img/events/libraryOfRuina.png"
-          }
-        }
-      ]
+      "event_text": "${CHAR} has convinced at least 7 people to play Lobotomy Corporation, changing their brain chemistries forever.",
+      "event_pic": {
+        "1": "./img/events/lobotomyCorporation.png"
+      }
+    },
+    {
+      "event_text": "${CHAR} has convinced at least 7 people to play Library of Ruina, changing their brain chemistries forever.",
+      "event_pic": {
+        "1": "./img/events/libraryOfRuina.png"
+      }
     },
     {
       "event_text": "${CHAR} has been found stealing money from ${char}!"
