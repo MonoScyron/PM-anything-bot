@@ -43,12 +43,13 @@ def pull_event(pull_path) -> Tuple[str, Union[dict, None]]:
         logging.log_error(error_msg)
 
 
-def pull_character(is_cap, pull_path, is_def=True) -> Tuple[str, str]:
+def pull_character(is_cap, pull_path, is_def=True, is_plural=False) -> Tuple[str, str]:
     """
     Pulls a random character from the list of characters
     :param is_cap:Whether to capitalize "the" in a character's title
-    :param is_def:Whether to include the definitive of a character ("The")
     :param pull_path: Path of the character pull file
+    :param is_def:Whether to include the definitive of a character ("The")
+    :param is_plural:Whether character name should be plural
     :return:Character name, path to character's picture
     """
     pull_file = open(pull_path)
@@ -65,6 +66,12 @@ def pull_character(is_cap, pull_path, is_def=True) -> Tuple[str, str]:
             char = char[4:]
         elif not is_cap:
             char = "the" + char[3:]
+
+    if is_plural:
+        if char[-1] == 's':
+            char += "'s"
+        else:
+            char += 's'
 
     return char, char_pic_path
 

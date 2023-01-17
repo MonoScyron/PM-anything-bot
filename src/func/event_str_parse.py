@@ -49,6 +49,8 @@ def parse_event_text(text, char_path) -> Tuple[str, list[str]]:
                 name, pic = list_pull.pull_character(True, pull_path=char_path)
             elif case == "char":
                 name, pic = list_pull.pull_character(False, pull_path=char_path)
+            elif case == "chars":
+                name, pic = list_pull.pull_character(False, pull_path=char_path, is_def=False, is_plural=True)
             elif case == "char-D":
                 name, pic = list_pull.pull_character(False, pull_path=char_path, is_def=False)
             elif case == "FACTION":
