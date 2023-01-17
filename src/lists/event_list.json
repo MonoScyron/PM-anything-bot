@@ -272,7 +272,7 @@
     {
       "event_text": "${CHAR} has filed a restraining order against ${char}",
       "event_pic": {
-        "2": "./img/events/restrainingOrder.png"
+        "1": "./img/events/restrainingOrder.png"
       }
     },
     {
