@@ -50,5 +50,5 @@ def test_list_pull():
     print(f'{parsed_text} - {pics}')
 
 
-# check_images()
-test_list_pull()
+check_images()
+# test_list_pull()

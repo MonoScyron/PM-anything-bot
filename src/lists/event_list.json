@@ -110,10 +110,14 @@
       }
     },
     {
-      "event_text": "${CHAR} did absolutely nothing wrong"
-    },
-    {
-      "event_text": "${CHAR} did absolutely everything wrong"
+      "sub_events": [
+        {
+          "event_text": "${CHAR} did absolutely nothing wrong"
+        },
+        {
+          "event_text": "${CHAR} did absolutely everything wrong"
+        }
+      ]
     },
     {
       "event_text": "${CHAR} just dropkicked a homophobe to the Outskirts",
@@ -174,25 +178,33 @@
       }
     },
     {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a band!"
-    },
-    {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an orchestra!"
+      "sub_events": [
+        {
+          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a band!"
+        },
+        {
+          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an orchestra!"
+        }
+      ]
     },
     {
       "event_text": "Does anyone else relate to ${char}?"
     },
     {
-      "event_text": "${CHAR} has convinced at least 7 people to play Lobotomy Corporation, changing their brain chemistries forever.",
-      "event_pic": {
-        "1": "./img/events/lobotomyCorporation.png"
-      }
-    },
-    {
-      "event_text": "${CHAR} has convinced at least 7 people to play Library of Ruina, changing their brain chemistries forever.",
-      "event_pic": {
-        "1": "./img/events/libraryOfRuina.png"
-      }
+      "sub_events": [
+        {
+          "event_text": "${CHAR} has convinced at least 7 people to play Lobotomy Corporation, changing their brain chemistries forever.",
+          "event_pic": {
+            "1": "./img/events/lobotomyCorporation.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} has convinced at least 7 people to play Library of Ruina, changing their brain chemistries forever.",
+          "event_pic": {
+            "1": "./img/events/libraryOfRuina.png"
+          }
+        }
+      ]
     },
     {
       "event_text": "${CHAR} has been found stealing money from ${char}!"
@@ -503,6 +515,35 @@
       "event_pic": {
         "1": "./img/events/extinct.png"
       }
+    },
+    {
+      "event_text": "${CHAR} was forced to drink cement when they were 12"
+    },
+    {
+      "sub_events": [
+        {
+          "event_text": "${CHAR} distorted, and ${char} is the reason why!"
+        },
+        {
+          "event_text": "${CHAR} manifested their EGO, and ${char} is the reason why!"
+        }
+      ]
+    },
+    {
+      "sub_events": [
+        {
+          "event_text": "${CHAR} just inflicted 50 burn on ${char}",
+          "event_pic": {
+            "1": "./img/events/burn.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} just inflicted 50 bleed on ${char}",
+          "event_pic": {
+            "1": "./img/events/bleed.png"
+          }
+        }
+      ]
     }
   ]
 }
