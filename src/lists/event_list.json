@@ -382,55 +382,55 @@
     {
       "sub_events": [
         {
-          "event_text": "${CHAR} is sobbing over Salt, Pepper, Birds, And the Thought Police at 3am",
+          "event_text": "${CHAR} is sobbing over Salt, Pepper, Birds, And the Thought Police at 3 AM",
           "event_pic": {
             "1": "./img/events/thoughtPolice.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over Poems of a Machine at 3am",
+          "event_text": "${CHAR} is sobbing over Poems of a Machine at 3 AM",
           "event_pic": {
             "1": "./img/events/poemsOfAMachine.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over Gone Angels at 3am",
+          "event_text": "${CHAR} is sobbing over Gone Angels at 3 AM",
           "event_pic": {
             "1": "./img/events/goneAngels.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over Children of the City at 3am",
+          "event_text": "${CHAR} is sobbing over Children of the City at 3 AM",
           "event_pic": {
             "1": "./img/events/childrenOfTheCity.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over Iron Lotus at 3am",
+          "event_text": "${CHAR} is sobbing over Iron Lotus at 3 AM",
           "event_pic": {
             "1": "./img/events/ironLotus.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over And Then Is Heard No More at 3am",
+          "event_text": "${CHAR} is sobbing over And Then Is Heard No More at 3 AM",
           "event_pic": {
             "1": "./img/events/heardNoMore.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over From a Place of Love at 3am",
+          "event_text": "${CHAR} is sobbing over From a Place of Love at 3 AM",
           "event_pic": {
             "1": "./img/events/placeOfLove.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over String Theocracy at 3am",
+          "event_text": "${CHAR} is sobbing over String Theocracy at 3 AM",
           "event_pic": {
             "1": "./img/events/stringTheocracy.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over In Hell We Live, Lament at 3am",
+          "event_text": "${CHAR} is sobbing over In Hell We Live, Lament at 3 AM",
           "event_pic": {
             "1": "./img/events/lament.png"
           }
@@ -440,60 +440,69 @@
     {
       "sub_events": [
         {
-          "event_text": "${CHAR} is headbanging to Salt, Pepper, Birds, And the Thought Police at 3am",
+          "event_text": "${CHAR} is headbanging to Salt, Pepper, Birds, And the Thought Police at 3 AM",
           "event_pic": {
             "1": "./img/events/thoughtPolice.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to Poems of a Machine at 3am",
+          "event_text": "${CHAR} is headbanging to Poems of a Machine at 3 AM",
           "event_pic": {
             "1": "./img/events/poemsOfAMachine.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to Gone Angels at 3am",
+          "event_text": "${CHAR} is headbanging to Gone Angels at 3 AM",
           "event_pic": {
             "1": "./img/events/goneAngels.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to Children of the City at 3am",
+          "event_text": "${CHAR} is headbanging to Children of the City at 3 AM",
           "event_pic": {
             "1": "./img/events/childrenOfTheCity.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to Iron Lotus at 3am",
+          "event_text": "${CHAR} is headbanging to Iron Lotus at 3 AM",
           "event_pic": {
             "1": "./img/events/ironLotus.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to And Then Is Heard No More at 3am",
+          "event_text": "${CHAR} is headbanging to And Then Is Heard No More at 3 AM",
           "event_pic": {
             "1": "./img/events/heardNoMore.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to From a Place of Love at 3am",
+          "event_text": "${CHAR} is headbanging to From a Place of Love at 3 AM",
           "event_pic": {
             "1": "./img/events/placeOfLove.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to String Theocracy at 3am",
+          "event_text": "${CHAR} is headbanging to String Theocracy at 3 AM",
           "event_pic": {
             "1": "./img/events/stringTheocracy.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to In Hell We Live, Lament at 3am",
+          "event_text": "${CHAR} is headbanging to In Hell We Live, Lament at 3 AM",
           "event_pic": {
             "1": "./img/events/lament.png"
           }
         }
       ]
+    },
+    {
+      "event_text": "${CHAR} and ${char} are arguing over whether a hot dog is a sandwich... At 2 AM."
+    },
+    {
+      "event_text": "All life in the City has gone extinct, and ${char} is the only survivor!",
+      "event_pic": {
+        "1": "./img/events/extinct.png"
+      }
     }
   ]
 }
