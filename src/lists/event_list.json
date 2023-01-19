@@ -513,7 +513,7 @@
     {
       "event_text": "All life in the City has gone extinct, and ${char} is the only survivor!",
       "event_pic": {
-        "1": "./img/events/extinct.png"
+        "0": "./img/events/extinct.png"
       }
     },
     {
