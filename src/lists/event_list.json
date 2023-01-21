@@ -508,7 +508,10 @@
       ]
     },
     {
-      "event_text": "${CHAR} and ${char} are arguing over whether a hot dog is a sandwich... At 2 AM."
+      "event_text": "${CHAR} and ${char} are arguing over whether a hot dog is a sandwich... At 2 AM.",
+      "event_pic": {
+        "2": "./img/events/hotdog.png"
+      }
     },
     {
       "event_text": "All life in the City has gone extinct, and ${char} is the only survivor!",
