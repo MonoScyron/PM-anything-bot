@@ -13,10 +13,24 @@
       "event_text": "${CHAR} and ${char} are teaming up to stop ${CHAR}"
     },
     {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an office together!"
+      "sub_events": [
+        {
+          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed an office together!"
+        },
+        {
+          "event_text": "${CHAR}, ${char}, and ${char} have formed an office together!"
+        }
+      ]
     },
     {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a syndicate together!"
+      "sub_events": [
+        {
+          "event_text": "${CHAR}, ${char}, ${char}, and ${char} have formed a syndicate together!"
+        },
+        {
+          "event_text": "${CHAR}, ${char}, and ${char} have formed a syndicate together!"
+        }
+      ]
     },
     {
       "event_text": "One will protect you, the others will try to kill you: ${CHAR}, ${char}, ${char}, and ${char}"
