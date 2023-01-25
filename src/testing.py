@@ -1,4 +1,8 @@
 import json
+from typing import Tuple
+
+import tweepy
+from dotenv import dotenv_values
 
 from func import event_str_parse, list_pull
 
@@ -50,5 +54,31 @@ def test_list_pull():
     print(f'{parsed_text} - {pics}')
 
 
-check_images()
+def get_api_client() -> Tuple[tweepy.API, tweepy.Client]:
+    """
+    Gets API and Client for ProjectMoon Anything Bot
+    :return: API for bot, Client for bot
+    """
+
+    # Get client & api auth using v1
+    env = dotenv_values(".env")
+    client = tweepy.Client(
+        bearer_token=env.get("BEARER_TOKEN"),
+        consumer_key=env.get("API_KEY"),
+        consumer_secret=env.get("API_KEY_SECRET"),
+        access_token=env.get("ACCESS_TOKEN"),
+        access_token_secret=env.get("ACCESS_TOKEN_SECRET")
+    )
+    auth = tweepy.OAuth1UserHandler(
+        consumer_key=env.get("API_KEY"),
+        consumer_secret=env.get("API_KEY_SECRET"),
+        access_token=env.get("ACCESS_TOKEN"),
+        access_token_secret=env.get("ACCESS_TOKEN_SECRET")
+    )
+    api = tweepy.API(auth)
+    return api, client
+
+# check_images()
 # test_list_pull()
+
+# bot_api, bot_client = get_api_client()

@@ -31,4 +31,8 @@ while True:
     # On exception, log error, wait 30 seconds and try again
     except TweepyException as e:
         logging.log_error(e)
-        sleep(30)
+        # If last tweet was less than 3 mins ago, sleep 30 mins (Tweet was sent despite exception)
+        if bot_tweet.get_time_since_last_tweet(bot_client=client) < 3 * 60:
+            sleep(30 * 60)
+        else:
+            sleep(30)
