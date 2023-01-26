@@ -561,6 +561,25 @@
           }
         }
       ]
+    },
+    {
+      "sub_events": [
+        {
+          "event_text": "${CHAR} has become the new Red colored fixer!"
+        },
+        {
+          "event_text": "${CHAR} has become the new Blue colored fixer!"
+        },
+        {
+          "event_text": "${CHAR} has become the new Black colored fixer!"
+        },
+        {
+          "event_text": "${CHAR} has become the new Purple colored fixer!"
+        },
+        {
+          "event_text": "${CHAR} has become the new Vermilion colored fixer!"
+        }
+      ]
     }
   ]
 }
