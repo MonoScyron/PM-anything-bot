@@ -5,6 +5,9 @@ Manipulation of the Twitter bot via API
 import tweepy
 from datetime import datetime
 from dotenv import dotenv_values
+from tweepy import TweepyException
+from time import sleep
+
 from func import event_str_parse, list_pull, logging
 
 
@@ -25,6 +28,41 @@ def bot_tweet(bot_api: tweepy.API, bot_client: tweepy.Client) -> None:
 
     if res.errors:
         logging.log_error(res)
+
+
+# ! Function not fully tested nor implemented
+def like_loved_tweets(client: tweepy.Client, num_get=1440, threshold=50) -> None:
+    """
+    Likes all "loved" tweets within a specified number of recent tweets
+    :param client:Authenticated client of the bot
+    :param num_get:How many recent tweets to check "loved" tweets for, cannot be greater than 3200
+    :param threshold:Number of likes a tweet has to be considered "loved"
+    :return:None
+    """
+    env = dotenv_values(".env")
+
+    # Loop until tweets are gotten
+    while True:
+        try:
+            tweets = tweepy.Paginator(client.get_users_tweets, env.get("BOT_ID"), exclude=['retweets', 'replies'],
+                                      tweet_fields=['public_metrics'], max_results=100).flatten(limit=num_get)
+            new_loved_ids = [t.id for t in tweets if
+                             t.data['public_metrics']['like_count'] > threshold]
+            for t_id in new_loved_ids:
+                # While tweet is not liked, try to like the tweet
+                flag = False
+                while not flag:
+                    try:
+                        client.like(tweet_id=t_id)
+                        flag = True
+                    except TweepyException as e:
+                        logging.log_error(f'like_loved_tweets() like loop - {e}')
+                        sleep(1)
+            return
+        # If exception when trying to get last tweet, wait 10 secs then try again
+        except TweepyException as e:
+            logging.log_error(f'like_loved_tweets() - {e}')
+            sleep(30)
 
 
 def get_time_since_last_tweet(bot_client: tweepy.Client) -> int:
