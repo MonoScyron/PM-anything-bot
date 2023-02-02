@@ -1,12 +1,11 @@
 """
 Manipulation of the Twitter bot via API
 """
+
 import tweepy
-from dotenv import dotenv_values
-
-from func import event_str_parse, list_pull, logging
-
 from datetime import datetime
+from dotenv import dotenv_values
+from func import event_str_parse, list_pull, logging
 
 
 def bot_tweet(bot_api: tweepy.API, bot_client: tweepy.Client) -> None:

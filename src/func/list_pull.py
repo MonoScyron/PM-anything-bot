@@ -5,7 +5,6 @@ Pull objects from list files
 import json
 import random
 from typing import Tuple, Union
-
 from func import logging
 
 
