@@ -94,7 +94,7 @@
       ]
     },
     {
-      "event_text": "${CHAR} is a toxic ${char} stan"
+      "event_text": "${CHAR} is a toxic ${char-D} stan"
     },
     {
       "event_text": "${CHAR} just showed up on your doorstep. You have 10 seconds to run."
