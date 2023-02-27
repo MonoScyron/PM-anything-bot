@@ -217,6 +217,12 @@
           "event_pic": {
             "1": "./img/events/libraryOfRuina.png"
           }
+        },
+        {
+          "event_text": "${CHAR} has convinced at least 7 people to play Limbus Company, changing their brain chemistries forever.",
+          "event_pic": {
+            "1": "./img/events/LimbusCompany.png"
+          }
         }
       ]
     },
