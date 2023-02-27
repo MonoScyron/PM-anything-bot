@@ -1,4 +1,5 @@
 import tweepy
+import sys
 from tweepy import TweepyException
 from time import sleep
 from dotenv import dotenv_values
@@ -20,6 +21,16 @@ auth = tweepy.OAuth1UserHandler(
     access_token_secret=env.get("ACCESS_TOKEN_SECRET")
 )
 api = tweepy.API(auth)
+
+args = sys.argv
+wait_arg = 0
+if len(args) > 2:
+    raise ValueError("Too many args")
+elif len(args) == 2:
+    wait_arg = int(args[1])
+
+# Wait arg mins before tweeting
+sleep(wait_arg * 60)
 
 # Tweet indefinitely every 30 mins
 while True:
