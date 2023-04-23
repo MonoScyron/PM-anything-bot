@@ -1,6 +1,62 @@
 {
   "events": [
     {
+      "event_text": "${CHAR} just locked themselves out of their own house."
+    },
+    {
+      "event_text": "${CHAR} released an apology video."
+    },
+    {
+      "event_text": "${CHAR} is stinky :/"
+    },
+    {
+      "event_text": "If nobody got me, I know ${char} got me. Can I get an amen?"
+    },
+    {
+      "sub_events": [
+        {
+          "event_text": "${CHAR} is what I would describe as a creature."
+        },
+        {
+          "event_text": "${CHAR} is what I would describe as evil and fucked up."
+        },
+        {
+          "event_text": "${CHAR} is what I would describe as cringe."
+        },
+        {
+          "event_text": "${CHAR} is what I would describe as just a little guy."
+        },
+        {
+          "event_text": "${CHAR} is what I would describe as gay."
+        },
+        {
+          "event_text": "${CHAR} is what I would describe as skrunkly."
+        }
+      ]
+    },
+    {
+      "sub_events": [
+        {
+          "event_text": "${CHAR} was permanently banned from Twitter for sending death threats.",
+          "event_pic": {
+            "2": "./img/events/twitter.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} was permanently banned from Twitter for being cringe.",
+          "event_pic": {
+            "2": "./img/events/twitter.png"
+          }
+        },
+        {
+          "event_text": "${CHAR} was permanently banned from Twitter for disagreeing with you specifically.",
+          "event_pic": {
+            "2": "./img/events/twitter.png"
+          }
+        }
+      ]
+    },
+    {
       "event_text": "${CHAR} and ${char} have been evicted from the city!",
       "event_pic": {
         "2": "./img/events/city.png"
