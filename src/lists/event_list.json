@@ -1,6 +1,85 @@
 {
   "events": [
     {
+      "sub_events": [
+        {
+          "event_text": "${CHAR} has been found dead at HamHamPangPang."
+        },
+        {
+          "event_text": "${CHAR} has been found dead in a warp train."
+        },
+        {
+          "event_text": "${CHAR} has been found dead at the Library."
+        },
+        {
+          "event_text": "${CHAR} has been found dead in the Outskirts."
+        },
+        {
+          "event_text": "${CHAR} has been found dead in Mephistopheles."
+        },
+        {
+          "event_text": "${CHAR} has been found alive at HamHamPangPang."
+        },
+        {
+          "event_text": "${CHAR} has been found alive in a warp train."
+        },
+        {
+          "event_text": "${CHAR} has been found alive at the Library."
+        },
+        {
+          "event_text": "${CHAR} has been found alive in the Outskirts."
+        },
+        {
+          "event_text": "${CHAR} has been found alive in Mephistopheles."
+        },
+        {
+          "event_text": "${CHAR} has been found sleeping peacefully at HamHamPangPang."
+        },
+        {
+          "event_text": "${CHAR} has been found sleeping peacefully in a warp train."
+        },
+        {
+          "event_text": "${CHAR} has been found sleeping peacefully at the Library."
+        },
+        {
+          "event_text": "${CHAR} has been found sleeping peacefully in the Outskirts."
+        },
+        {
+          "event_text": "${CHAR} has been found sleeping peacefully in Mephistopheles."
+        },
+        {
+          "event_text": "${CHAR} has been found busting a move at HamHamPangPang."
+        },
+        {
+          "event_text": "${CHAR} has been found busting a move in a warp train."
+        },
+        {
+          "event_text": "${CHAR} has been found busting a move at the Library."
+        },
+        {
+          "event_text": "${CHAR} has been found busting a move in the Outskirts."
+        },
+        {
+          "event_text": "${CHAR} has been found busting a move in Mephistopheles."
+        },
+        {
+          "event_text": "${CHAR} has been found gaming at HamHamPangPang."
+        },
+        {
+          "event_text": "${CHAR} has been found gaming in a warp train."
+        },
+        {
+          "event_text": "${CHAR} has been found gaming at the Library."
+        },
+        {
+          "event_text": "${CHAR} has been found gaming in the Outskirts."
+        },
+        {
+          "event_text": "${CHAR} has been found gaming in Mephistopheles."
+        }
+      ]
+    },
+    {
       "event_text": "${CHAR} just locked themselves out of their own house."
     },
     {
