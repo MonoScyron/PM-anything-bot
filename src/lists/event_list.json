@@ -1,6 +1,12 @@
 {
   "events": [
     {
+      "event_text": "${CHAR} knows what you are...",
+      "event_pic": {
+        "2": "./img/events/whatYouAre.png"
+      }
+    },
+    {
       "sub_events": [
         {
           "event_text": "${CHAR} has been found dead at HamHamPangPang."

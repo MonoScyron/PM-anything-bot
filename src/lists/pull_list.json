@@ -21,6 +21,7 @@
     "W. Corp": "./img/factions/W. Corp.png"
   },
   "chars": {
+    "Wonderlab Rose": "./img/characters/RoseWonderlab.png",
     "Charon": "./img/characters/Charon.png",
     "Vergilius": "./img/characters/Vergilius.png",
     "Dante": "./img/characters/Dante.png",
@@ -103,7 +104,7 @@
     "Lyla": "./img/characters/Lyla.png",
     "Mi": "./img/characters/Mi.png",
     "Noah": "./img/characters/Noah.png",
-    "Rose": "./img/characters/Rose.png",
+    "Library of Ruina Rose": "./img/characters/RoseLOR.png",
     "Sen": "./img/characters/Sen.png",
     "Tenma": "./img/characters/Tenma.png",
     "Valentin": "./img/characters/Valentin.png",
@@ -173,7 +174,11 @@
     "Yesod": "./img/characters/Yesod.png"
   },
   "abnos": {
+    "My Form Empties": "./img/abnos/My Form Empties.png",
+    "KQE-1J-23": "./img/abnos/KQE-1J-23.png",
+    "Alleyway Watchdog": "./img/abnos/Alleyway Watchdog.png",
     "Apocalypse Bird": "./img/abnos/Apocalypse Bird.png",
+    "Blubbering Toad": "./img/abnos/Blubbering Toad.png",
     "Blue Star": "./img/abnos/Blue Star.png",
     "CENSORED": "./img/abnos/CENSORED.png",
     "Melting Love": "./img/abnos/Melting Love.png",
@@ -219,6 +224,7 @@
     "Dimensional Refraction Variant": "./img/abnos/Dimensional Refraction Variant.png",
     "Dream of a Black Swan": "./img/abnos/Dream of a Black Swan.png",
     "Judgement Bird": "./img/abnos/Judgement Bird.png",
+    "Headless Ichthys": "./img/abnos/Headless Ichthys.png",
     "La Luna": "./img/abnos/La Luna.png",
     "Little Red": "./img/abnos/Little Red.png",
     "Parasite Tree": "./img/abnos/Parasite Tree.png",
