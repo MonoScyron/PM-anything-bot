@@ -174,6 +174,13 @@
     "Yesod": "./img/characters/Yesod.png"
   },
   "abnos": {
+    "Bongy": "./img/abnos/Bongy.png",
+    "Doomsday Calendar": "./img/abnos/Doomsday Calendar.png",
+    "Ebony Queen's Apple": "./img/abnos/Ebony Queens Apple.png",
+    "Golden Apple": "./img/abnos/Golden Apple.png",
+    "Papa Bongy": "./img/abnos/Papa Bongy.png",
+    "Pink Shoes": "./img/abnos/Pink Shoes.png",
+    "You Want to Get Beat": "./img/abnos/You Want to Get Beat.png",
     "My Form Empties": "./img/abnos/My Form Empties.png",
     "KQE-1J-23": "./img/abnos/KQE-1J-23.png",
     "Alleyway Watchdog": "./img/abnos/Alleyway Watchdog.png",
