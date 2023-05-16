@@ -1,6 +1,15 @@
 {
   "events": [
     {
+      "event_text": "${CHAR} has a Twitter, and ${char} fans are in their DNI."
+    },
+    {
+      "event_text": "${CHAR} has bought Twitter!"
+    },
+    {
+      "event_text": "Lock ${char}, ${char}, and ${char} in a room. Who comes out crying first?"
+    },
+    {
       "event_text": "${CHAR} knows what you are...",
       "event_pic": {
         "2": "./img/events/whatYouAre.png"
@@ -183,7 +192,7 @@
       }
     },
     {
-      "event_text": "Don't tell the Head, but ${char} doesn't pay their taxes"
+      "event_text": "Don't tell the Head, but ${char} doesn't pay their taxes."
     },
     {
       "event_text": "Who would win in a fistfight? ${CHAR} or ${char}?"
@@ -235,7 +244,7 @@
       ]
     },
     {
-      "event_text": "${CHAR} is a toxic ${char-D} stan"
+      "event_text": "${CHAR} is a toxic ${char-D} stan."
     },
     {
       "event_text": "${CHAR} just showed up on your doorstep. You have 10 seconds to run."
@@ -267,15 +276,15 @@
     {
       "sub_events": [
         {
-          "event_text": "${CHAR} did absolutely nothing wrong"
+          "event_text": "${CHAR} did absolutely nothing wrong."
         },
         {
-          "event_text": "${CHAR} did absolutely everything wrong"
+          "event_text": "${CHAR} did absolutely everything wrong."
         }
       ]
     },
     {
-      "event_text": "${CHAR} just dropkicked a homophobe to the Outskirts",
+      "event_text": "${CHAR} just dropkicked a homophobe to the Outskirts.",
       "event_pic": {
         "1": "./img/events/outskirts.png"
       }
@@ -284,7 +293,7 @@
       "event_text": "${CHAR} just became a member of ${faction}!"
     },
     {
-      "event_text": "${CHAR} is wanted for committing 27 war crimes during the Smoke War"
+      "event_text": "${CHAR} is wanted for committing 27 war crimes during the Smoke War."
     },
     {
       "event_text": "Would you fight ${char} for 1 million dollars?"
@@ -321,10 +330,10 @@
       }
     },
     {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} would be a fucking nightmare blunt rotation"
+      "event_text": "${CHAR}, ${char}, ${char}, and ${char} would be a fucking nightmare blunt rotation."
     },
     {
-      "event_text": "${CHAR}, ${char}, ${char}, and ${char} is the ideal blunt rotation"
+      "event_text": "${CHAR}, ${char}, ${char}, and ${char} is the ideal blunt rotation."
     },
     {
       "event_text": "What would you do if you were stranded on an island with ${char}, ${char}, and ${char}?",
@@ -396,7 +405,7 @@
       "event_text": "What do you think ${char} has on their playlist?"
     },
     {
-      "event_text": "${CHAR} just got Great Split: Horizontaled",
+      "event_text": "${CHAR} just got Great Split: Horizontaled.",
       "event_pic": {
         "1": "./img/events/greatSplitHorizontal.png"
       }
@@ -426,13 +435,13 @@
     {
       "sub_events": [
         {
-          "event_text": "${CHAR} knows it's Ayin",
+          "event_text": "${CHAR} knows it's Ayin.",
           "event_pic": {
             "1": "./img/events/ayin.png"
           }
         },
         {
-          "event_text": "${CHAR} doesn't know it's Ayin",
+          "event_text": "${CHAR} doesn't know it's Ayin.",
           "event_pic": {
             "1": "./img/events/ayin.png"
           }
@@ -468,7 +477,7 @@
       ]
     },
     {
-      "event_text": "${CHAR} is listening to ASMR",
+      "event_text": "${CHAR} is listening to ASMR.",
       "event_pic": {
         "1": "./img/events/asmr.png"
       }
@@ -538,7 +547,7 @@
       ]
     },
     {
-      "event_text": "${CHAR} signed the invitation to the Library"
+      "event_text": "${CHAR} signed the invitation to the Library."
     },
     {
       "event_text": "${CHAR}, ${char}, and ${char} went to HamHamPangPang together!",
@@ -547,7 +556,7 @@
       }
     },
     {
-      "event_text": "${CHAR} hopes they don't have to fight their evil shadow self today"
+      "event_text": "${CHAR} hopes they don't have to fight their evil shadow self today."
     },
     {
       "event_text": "${CHAR} has deactivated their Twitter account"
@@ -555,55 +564,55 @@
     {
       "sub_events": [
         {
-          "event_text": "${CHAR} is sobbing over Salt, Pepper, Birds, And the Thought Police at 3 AM",
+          "event_text": "${CHAR} is sobbing over Salt, Pepper, Birds, And the Thought Police at 3 AM.",
           "event_pic": {
             "1": "./img/events/thoughtPolice.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over Poems of a Machine at 3 AM",
+          "event_text": "${CHAR} is sobbing over Poems of a Machine at 3 AM.",
           "event_pic": {
             "1": "./img/events/poemsOfAMachine.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over Gone Angels at 3 AM",
+          "event_text": "${CHAR} is sobbing over Gone Angels at 3 AM.",
           "event_pic": {
             "1": "./img/events/goneAngels.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over Children of the City at 3 AM",
+          "event_text": "${CHAR} is sobbing over Children of the City at 3 AM.",
           "event_pic": {
             "1": "./img/events/childrenOfTheCity.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over Iron Lotus at 3 AM",
+          "event_text": "${CHAR} is sobbing over Iron Lotus at 3 AM.",
           "event_pic": {
             "1": "./img/events/ironLotus.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over And Then Is Heard No More at 3 AM",
+          "event_text": "${CHAR} is sobbing over And Then Is Heard No More at 3 AM.",
           "event_pic": {
             "1": "./img/events/heardNoMore.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over From a Place of Love at 3 AM",
+          "event_text": "${CHAR} is sobbing over From a Place of Love at 3 AM.",
           "event_pic": {
             "1": "./img/events/placeOfLove.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over String Theocracy at 3 AM",
+          "event_text": "${CHAR} is sobbing over String Theocracy at 3 AM.",
           "event_pic": {
             "1": "./img/events/stringTheocracy.png"
           }
         },
         {
-          "event_text": "${CHAR} is sobbing over In Hell We Live, Lament at 3 AM",
+          "event_text": "${CHAR} is sobbing over In Hell We Live, Lament at 3 AM.",
           "event_pic": {
             "1": "./img/events/lament.png"
           }
@@ -613,55 +622,55 @@
     {
       "sub_events": [
         {
-          "event_text": "${CHAR} is headbanging to Salt, Pepper, Birds, And the Thought Police at 3 AM",
+          "event_text": "${CHAR} is headbanging to Salt, Pepper, Birds, And the Thought Police at 3 AM.",
           "event_pic": {
             "1": "./img/events/thoughtPolice.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to Poems of a Machine at 3 AM",
+          "event_text": "${CHAR} is headbanging to Poems of a Machine at 3 AM.",
           "event_pic": {
             "1": "./img/events/poemsOfAMachine.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to Gone Angels at 3 AM",
+          "event_text": "${CHAR} is headbanging to Gone Angels at 3 AM.",
           "event_pic": {
             "1": "./img/events/goneAngels.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to Children of the City at 3 AM",
+          "event_text": "${CHAR} is headbanging to Children of the City at 3 AM.",
           "event_pic": {
             "1": "./img/events/childrenOfTheCity.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to Iron Lotus at 3 AM",
+          "event_text": "${CHAR} is headbanging to Iron Lotus at 3 AM.",
           "event_pic": {
             "1": "./img/events/ironLotus.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to And Then Is Heard No More at 3 AM",
+          "event_text": "${CHAR} is headbanging to And Then Is Heard No More at 3 AM.",
           "event_pic": {
             "1": "./img/events/heardNoMore.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to From a Place of Love at 3 AM",
+          "event_text": "${CHAR} is headbanging to From a Place of Love at 3 AM.",
           "event_pic": {
             "1": "./img/events/placeOfLove.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to String Theocracy at 3 AM",
+          "event_text": "${CHAR} is headbanging to String Theocracy at 3 AM.",
           "event_pic": {
             "1": "./img/events/stringTheocracy.png"
           }
         },
         {
-          "event_text": "${CHAR} is headbanging to In Hell We Live, Lament at 3 AM",
+          "event_text": "${CHAR} is headbanging to In Hell We Live, Lament at 3 AM.",
           "event_pic": {
             "1": "./img/events/lament.png"
           }
