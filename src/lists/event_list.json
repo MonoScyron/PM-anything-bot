@@ -1,6 +1,37 @@
 {
   "events": [
     {
+      "sub_events": [
+        {
+          "event_text": "${CHAR} has given HamHamPangPang 1 star on Yelp."
+        },
+        {
+          "event_text": "${CHAR} has given HamHamPangPang 5 stars on Yelp."
+        },
+        {
+          "event_text": "${CHAR} has given the Library 1 star on Yelp."
+        },
+        {
+          "event_text": "${CHAR} has given the Library 5 stars on Yelp."
+        }
+      ]
+    },
+    {
+      "event_text": "Do you think ${char} could survive working retail?"
+    },
+    {
+      "event_text": "${CHAR} and ${char} are lost in the woods."
+    },
+    {
+      "event_text": "What do you think ${char}'s Animal Crossing island would be like?"
+    },
+    {
+      "event_text": "${CHAR} says you should NOT come to their house. They've baked an absolute dogshit cake. Just completely fucked it up. They're so sorry.",
+      "event_pic": {
+        "2": "./img/events/dogshitCake.png"
+      }
+    },
+    {
       "event_text": "${CHAR} has a Twitter, and ${char} fans are in their DNI."
     },
     {
