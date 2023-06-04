@@ -1,6 +1,12 @@
 {
   "events": [
     {
+      "event_text": "${CHAR} thinks ${char} is pretty fucking too.",
+      "event_pic": {
+        "2": "./img/events/prettyFucking.png"
+      }
+    },
+    {
       "event_text": "${CHAR} is putting the Pink Shoes on.",
       "event_pic": {
         "2": "./img/events/pinkShoes.png"
