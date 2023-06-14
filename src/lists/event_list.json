@@ -1,9 +1,28 @@
 {
   "events": [
     {
+      "sub_events": [
+        {
+          "event_text": "${CHAR} is being hunted by the Head for weed crimes."
+        },
+        {
+          "event_text": "${CHAR} is being hunted by the Head for shipping two characters who never interacted."
+        },
+        {
+          "event_text": "${CHAR} is being hunted by the Head for being horny on main."
+        },
+        {
+          "event_text": "${CHAR} is being hunted by the Head for ratioing an Arbiter on Twitter."
+        },
+        {
+          "event_text": "${CHAR} is being hunted by the Head for being annoying."
+        }
+      ]
+    },
+    {
       "event_text": "${CHAR} thinks ${char} is pretty fucking too.",
       "event_pic": {
-        "2": "./img/events/prettyFucking.png"
+        "3": "./img/events/prettyFucking.png"
       }
     },
     {
