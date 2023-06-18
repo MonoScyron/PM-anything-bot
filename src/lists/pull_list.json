@@ -21,6 +21,12 @@
     "W. Corp": "./img/factions/W. Corp.png"
   },
   "chars": {
+    "Alfonso": "./img/characters/Alfonso.png",
+    "Dongbaek": "./img/characters/Dongbaek.png",
+    "Dongrang": "./img/characters/Dongrang.png",
+    "Ran": "./img/characters/Ran.png",
+    "Samjo": "./img/characters/Samjo.png",
+    "Shrenne": "./img/characters/Shrenne.png",
     "Wonderlab Rose": "./img/characters/RoseWonderlab.png",
     "Charon": "./img/characters/Charon.png",
     "Vergilius": "./img/characters/Vergilius.png",
