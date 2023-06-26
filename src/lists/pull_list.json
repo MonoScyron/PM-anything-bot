@@ -20,6 +20,19 @@
     "The Zwei Association": "./img/factions/The Zwei Association.png",
     "W. Corp": "./img/factions/W. Corp.png"
   },
+  "songs": {
+    "Salt, Pepper, Birds, And the Thought Police": "./img/songs/thoughtPolice.png",
+    "Poems of a Machine": "./img/songs/poemsOfAMachine.png",
+    "Gone Angels": "./img/songs/goneAngels.png",
+    "Children of the City": "./img/songs/childrenOfTheCity.png",
+    "Iron Lotus": "./img/songs/ironLotus.png",
+    "And Then Is Heard No More": "./img/songs/heardNoMore.png",
+    "From a Place of Love": "./img/songs/placeOfLove.png",
+    "String Theocracy": "./img/songs/stringTheocracy.png",
+    "In Hell We Live, Lament": "./img/songs/lament.png",
+    "Between Two Worlds": "./img/songs/betweenTwoWorlds.png",
+    "Fly, My Wings": "./img/songs/flyMyWings.png"
+  },
   "chars": {
     "Alfonso": "./img/characters/Alfonso.png",
     "Dongbaek": "./img/characters/Dongbaek.png",

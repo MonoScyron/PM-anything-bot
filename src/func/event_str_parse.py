@@ -15,7 +15,7 @@ def parse_event(event_text, event_pics_d, char_path='./lists/pull_list.json') ->
     :param char_path: Path of the character pull file
     :return:Parsed text of the event, list of pictures to upload in order
     """
-    parsed_text, pics = parse_event_text(text=event_text, char_path=char_path)
+    parsed_text, pics = parse_event_text(text=event_text, pull_path=char_path)
 
     if event_pics_d:
         keys = event_pics_d.keys()
@@ -25,11 +25,11 @@ def parse_event(event_text, event_pics_d, char_path='./lists/pull_list.json') ->
     return parsed_text, pics
 
 
-def parse_event_text(text, char_path) -> Tuple[str, list[str]]:
+def parse_event_text(text, pull_path) -> Tuple[str, list[str]]:
     """
     Parses event texts, pulling characters as needed
     :param text:Unparsed text of the event
-    :param char_path: Path of the character pull file
+    :param pull_path: Path of the insert pull file
     :return:Parsed text of the event, list of pictures to upload in order
     """
     split_text = text.split('$')
@@ -44,21 +44,26 @@ def parse_event_text(text, char_path) -> Tuple[str, list[str]]:
             t = t.split('}')[1]
 
             name, pic = None, None
-            # Pull necessary chars/factions with list_pull
+            # ! Pull necessary chars/factions with list_pull
             if case == "CHAR":
-                name, pic = list_pull.pull_character(True, pull_path=char_path)
+                name, pic = list_pull.pull_character(True, pull_path=pull_path)
             elif case == "char":
-                name, pic = list_pull.pull_character(False, pull_path=char_path)
+                name, pic = list_pull.pull_character(False, pull_path=pull_path)
             elif case == "chars":
-                name, pic = list_pull.pull_character(False, pull_path=char_path, is_def=False, is_plural=True)
+                name, pic = list_pull.pull_character(False, pull_path=pull_path, is_def=False, is_plural=True)
             elif case == "char-D":
-                name, pic = list_pull.pull_character(False, pull_path=char_path, is_def=False)
+                name, pic = list_pull.pull_character(False, pull_path=pull_path, is_def=False)
             elif case == "FACTION":
-                name, pic = list_pull.pull_faction(True, pull_path=char_path)
+                name, pic = list_pull.pull_faction(True, pull_path=pull_path)
             elif case == "faction":
-                name, pic = list_pull.pull_faction(False, pull_path=char_path)
+                name, pic = list_pull.pull_faction(False, pull_path=pull_path)
+            elif case == "SONG":
+                name, pic = list_pull.pull_song(True, pull_path=pull_path)
+            elif case == "song":
+                name, pic = list_pull.pull_song(False, pull_path=pull_path)
             else:
-                logging.log_error(f"event_str_parse.py couldn't find case for parsing event text: {case}")
+                logging.log_error(f"event_str_parse.py couldn't find case for parsing event text: {case} in\n\t{text}")
+                raise ValueError(f"event_str_parse.py couldn't find case for parsing event text: {case} in\n\t{text}")
 
             split_text[i] = name + t
             pics.append(pic)

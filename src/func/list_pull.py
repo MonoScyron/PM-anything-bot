@@ -93,3 +93,23 @@ def pull_faction(is_cap, pull_path) -> Tuple[str, str]:
         faction = "the" + faction[3:]
 
     return faction, faction_pic_path
+
+
+def pull_song(is_cap, pull_path) -> Tuple[str, str]:
+    """
+    Pulls a random song from the list of songs
+    :param is_cap:Whether to capitalize "the" in a song's title
+    :param pull_path: Path of the faction pull file
+    :return:Song name, path to faction's icon
+    """
+    pull_file = open(pull_path)
+    pull_list = json.load(pull_file)
+    songs_d = pull_list['songs']
+    pull_file.close()
+
+    song, song_pic_path = random.choice(list(songs_d.items()))
+
+    if not is_cap and song[:3] == "The":
+        song = "the" + song[3:]
+
+    return song, song_pic_path
