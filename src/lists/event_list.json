@@ -695,6 +695,18 @@
         },
         {
           "event_text": "${CHAR} has become the new Vermilion colored fixer!"
+        },
+        {
+          "event_text": "${CHAR} has become the new Orange colored fixer!"
+        },
+        {
+          "event_text": "${CHAR} has become the new Yellow colored fixer!"
+        },
+        {
+          "event_text": "${CHAR} has become the new Green colored fixer!"
+        },
+        {
+          "event_text": "${CHAR} has become the new White colored fixer!"
         }
       ]
     }
