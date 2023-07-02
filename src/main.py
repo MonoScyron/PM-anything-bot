@@ -46,7 +46,7 @@ while True:
         event_text, event_pics_d = list_pull.pull_event('./lists/event_list.json')
         parsed_text, pics = event_str_parse.parse_event(event_text=event_text, event_pics_d=event_pics_d)
 
-        # bot.twt_post(twt_api=twt_api, twt_client=twt_client, parsed_text=parsed_text, pics=pics)
+        bot.twt_post(twt_api=twt_api, twt_client=twt_client, parsed_text=parsed_text, pics=pics)
         bot.mstdn_post(mstdn_client=mstdn_client, parsed_text=parsed_text, pics=pics)
 
         sleep(30 * 60)
