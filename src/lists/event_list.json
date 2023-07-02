@@ -529,7 +529,23 @@
       }
     },
     {
-      "event_text": "i love ${char} i want to put them in a blender"
+      "sub_events": [
+        {
+          "event_text": "i love ${char} i want to put them in a blender"
+        },
+        {
+          "event_text": "i love ${char} i want to spin them around really fast"
+        },
+        {
+          "event_text": "i love ${char} i want to hug them"
+        },
+        {
+          "event_text": "i love ${char} i want to pinch their cheeks"
+        },
+        {
+          "event_text": "i love ${char} i want to give them chocolate milk"
+        }
+      ]
     },
     {
       "sub_events": [
