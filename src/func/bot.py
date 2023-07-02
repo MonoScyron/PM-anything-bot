@@ -1,46 +1,53 @@
 """
-Manipulation of the Twitter bot via API
+Manipulation of the bot via API
 """
 
 import tweepy
-from datetime import datetime
-from dotenv import dotenv_values
-from func import event_str_parse, list_pull, logging
+from mastodon import Mastodon
+
+from func import logging
 
 
-def bot_tweet(bot_api: tweepy.API, bot_client: tweepy.Client) -> None:
+def twt_post(twt_api: tweepy.API, twt_client: tweepy.Client, parsed_text, pics) -> None:
     """
     Send a random tweet from the ProjectMoon Anything Bot and logs the response
-    :param bot_api:Authenticated API of the bot
-    :param bot_client:Authenticated client of the bot
+    :param twt_api:Authenticated API of the bot
+    :param twt_client:Authenticated client of the bot on Twitter
+    :param parsed_text:Text for bot to post
+    :param pics:File paths to the pics for the bot to post
     :return:None
     """
-    event_text, event_pics_d = list_pull.pull_event('./lists/event_list.json')
-    parsed_text, pics = event_str_parse.parse_event(event_text=event_text, event_pics_d=event_pics_d)
-
-    media_ids = []
+    twt_media_ids = []
     for p in pics:
-        media_ids.append(bot_api.media_upload(filename=p).media_id_string)
-    res = bot_client.create_tweet(text=parsed_text, media_ids=media_ids)
+        twt_media_ids.append(twt_api.media_upload(filename=p).media_id_string)
 
+    res = twt_client.create_tweet(text=parsed_text, media_ids=twt_media_ids)
     if res.errors:
-        logging.log_error(res)
+        logging.log_error_twt(res)
+    else:
+        logging.log_info_twt(res.data)
 
 
-def get_time_since_last_tweet(bot_client: tweepy.Client) -> int:
+def mstdn_post(mstdn_client: Mastodon, parsed_text, pics) -> None:
     """
-    Returns time since ProjectMoon Anything Bot's last tweet'
-    :param bot_client:Authenticated client of the bot
-    :return:Time since last tweet in seconds, or -1 if there was an exception
+    Send a random post on Mastodon from the ProjectMoon Anything Bot and logs the response
+    :param mstdn_client:Authenticated client of the bot on Mastodon
+    :param parsed_text:Text for bot to post
+    :param pics:File paths to the pics for the bot to post
+    :return:None
     """
-    try:
-        env = dotenv_values(".env")
-        last_tweets = bot_client.get_users_tweets(id=bot_client.get_user(username=env.get("BOT_USERNAME")).data.id,
-                                                  exclude=["retweets", "replies"],
-                                                  tweet_fields="created_at",
-                                                  max_results=5)
-        last_tweet_time: datetime = last_tweets.data[0].created_at
-        tweet_time_delta = datetime.now().timestamp() - last_tweet_time.timestamp()
-        return int(tweet_time_delta)
-    except tweepy.TweepyException:
-        return -1
+    mstdn_media_ids = []
+    for p in pics:
+        mstdn_media_ids.append(mstdn_client.media_post(media_file=p).id)
+
+    res = mstdn_client.status_post(status=parsed_text, media_ids=mstdn_media_ids)
+
+    modified_media_attachments = []
+    for m in res.media_attachments:
+        modified_media_attachments.append(m.url)
+    res_dict = {
+        'url': res.url,
+        'content': res.content,
+        'media_attachments': modified_media_attachments
+    }
+    logging.log_info_mstdn(f'{res_dict}')

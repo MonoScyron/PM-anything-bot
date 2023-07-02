@@ -43,7 +43,6 @@ def parse_event_text(text, pull_path) -> Tuple[str, list[str]]:
             case = t.split('}')[0][1:]
             t = t.split('}')[1]
 
-            name, pic = None, None
             # ! Pull necessary chars/factions with list_pull
             if case == "CHAR":
                 name, pic = list_pull.pull_character(True, pull_path=pull_path)

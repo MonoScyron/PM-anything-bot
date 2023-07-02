@@ -5,21 +5,9 @@ Custom logging in run.log file
 from datetime import datetime
 
 
-def log_response(response):
-    """
-    Logs a tweet response in run.log
-    :param response:Response to be logged
-    :return: None
-    """
-    with open("./run.log", 'a') as log:
-        w = str(datetime.now()) + " - " + str(response) + "\n"
-        log.write(w)
-        log.close()
-
-
 def log_error(error):
     """
-    Logs an error in run.log
+    Logs a general error in run.log
     :param error:Error to be logged
     :return: None
     """
@@ -29,13 +17,49 @@ def log_error(error):
         log.close()
 
 
-def log_info(info):
+def log_error_twt(error):
     """
-    Logs information in run.log
+    Logs a Twitter error in run.log
+    :param error:Error to be logged
+    :return: None
+    """
+    with open("./run.log", 'a') as log:
+        w = str(datetime.now()) + " - ERROR Twitter - " + str(error) + "\n"
+        log.write(w)
+        log.close()
+
+
+def log_error_mstdn(error):
+    """
+    Logs a Mastodon error in run.log
+    :param error:Error to be logged
+    :return: None
+    """
+    with open("./run.log", 'a') as log:
+        w = str(datetime.now()) + " - ERROR Mastodon - " + str(error) + "\n"
+        log.write(w)
+        log.close()
+
+
+def log_info_twt(info):
+    """
+    Logs Twitter information in run.log
     :param info:Message to be logged
     :return: None
     """
     with open("./run.log", 'a') as log:
-        w = str(datetime.now()) + " - Info - " + str(info) + "\n"
+        w = str(datetime.now()) + " - Info Twitter - " + str(info) + "\n"
+        log.write(w)
+        log.close()
+
+
+def log_info_mstdn(info):
+    """
+    Logs Mastodon information in run.log
+    :param info:Message to be logged
+    :return: None
+    """
+    with open("./run.log", 'a') as log:
+        w = str(datetime.now()) + " - Info Mastodon - " + str(info) + "\n"
         log.write(w)
         log.close()

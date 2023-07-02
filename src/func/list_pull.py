@@ -38,7 +38,7 @@ def pull_event(pull_path) -> Tuple[str, Union[dict, None]]:
             return event_text, None
 
     except Exception:
-        error_msg = f'pull_event() - {event}'
+        error_msg = f'pull_event(): {event}'
         logging.log_error(error_msg)
 
 
