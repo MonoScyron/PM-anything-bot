@@ -1,5 +1,6 @@
 {
   "factions": {
+    "K. Corp": "./img/factions/K. Corp.png",
     "L. Corp": "./img/factions/L. Corp.png",
     "Limbus Company": "./img/factions/Limbus Company.png",
     "Love Town": "./img/factions/Love Town.png",
