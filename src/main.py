@@ -7,8 +7,7 @@ from dotenv import dotenv_values
 from mastodon import Mastodon
 
 import bot
-import event_str_parse
-import list_pull
+import eventparser
 
 env = dotenv_values(".env")
 
@@ -44,10 +43,10 @@ elif len(args) == 2:
 # Wait arg mins before posting
 sleep(wait_arg * 60)
 
+parser = eventparser.EventParser()
 # Post indefinitely every 30 mins
 while True:
-    event_text, event_pics_d = list_pull.pull_event('./lists/event_list.json')
-    parsed_text, pics = event_str_parse.parse_event(event_text=event_text, event_pics_d=event_pics_d)
+    parsed_text, pics = parser.parse_event()
 
     twt_thread = threading.Thread(target=bot.twt_post(twt_api=twt_api, twt_client=twt_client, parsed_text=parsed_text,
                                                       pics=pics))
