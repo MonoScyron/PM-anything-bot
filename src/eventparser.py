@@ -8,32 +8,31 @@ from tracery.modifiers import base_english
 import bot_logging
 
 
-class TraceryModifierError(Exception):
+class TraceryError(Exception):
     """
-    Raised when a tracery modifier isn't found
+    Raised when tracery flattening can't find a node/modifier
     """
 
-    def __init__(self, err_text, msg="Tracery modifier not found!"):
-        self.text = err_text
-        self.message = msg
-        super().__init__(self.message)
+    def __init__(self, err_text):
+        self.err_text = err_text
+        super().__init__(self.err_text)
 
-
-# TODO: Rework for tracery
 
 class EventParser:
     """
     Manipulate raw event string from tracery json
     """
 
-    def __init__(self, file_path='tracery.json'):
+    def __init__(self, file_path='tracery.json', log=True):
         json_file = open(file_path)
         parser = tracery.Grammar(json.load(json_file))
         json_file.close()
 
         parser.add_modifiers(base_english)
         parser.add_modifiers(added_mods)
+
         self.__parser = parser
+        self.__log = log
 
     def parse_event(self) -> Tuple[str, list[str]]:
         """
@@ -41,13 +40,32 @@ class EventParser:
         :param file_path: Path of the tracery file
         :return:Parsed text of the event, list of pictures to upload in order
         """
+        raw_text = self.flatten("#event#")
+        parsed_text = self.parse_raw_text(raw_text)
+        return parsed_text
 
+    def flatten(self, text):
+        """
+        Uses tracery to flatten given text
+        :param text:Text to flatten
+        :return:Flattened text
+        """
         raw_text = self.__parser.flatten("#event#")
 
         if '((' in raw_text:
-            bot_logging.log_error(f'eventparser.py: TraceryModifierError in "{raw_text}"')
-            raise TraceryModifierError(raw_text)
+            if self.__log:
+                bot_logging.log_error(f'eventparser.py: TraceryError in "{raw_text}"')
+            raise TraceryError(raw_text)
 
+        return raw_text
+
+    @staticmethod
+    def parse_raw_text(raw_text) -> Tuple[str, list[str]]:
+        """
+        Parses raw text from tracery
+        :param raw_text:Raw tracery text
+        :return:Parsed text of the event, list of pictures to upload in order
+        """
         split_text = re.split("({.*?})", raw_text)
 
         pics = []
@@ -57,9 +75,7 @@ class EventParser:
                 t = t.removeprefix('{').removesuffix('}')
                 pics.append(t)
 
-        text = ' '.join([t for t in split_text])
-
-        return text, pics
+        return ' '.join([t for t in split_text]), pics
 
 
 def possessive(text: str, *params):
