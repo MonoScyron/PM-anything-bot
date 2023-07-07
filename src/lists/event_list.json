@@ -6,7 +6,7 @@
     {
       "event_text": "${CHAR} is getting shoved in this bag too!",
       "event_pic": {
-        "3": "./img/events/bodysackYourselfNow.png"
+        "2": "./img/events/bodysackYourselfNow.png"
       }
     },
     {
