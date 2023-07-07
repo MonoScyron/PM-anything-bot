@@ -44,6 +44,7 @@ elif len(args) == 2:
 sleep(wait_arg * 60)
 
 parser = eventparser.EventParser()
+
 # Post indefinitely every 30 mins
 while True:
     parsed_text, pics = parser.parse_event()
