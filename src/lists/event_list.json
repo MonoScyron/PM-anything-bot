@@ -6,7 +6,7 @@
     {
       "event_text": "${CHAR} is getting shoved in this bag too!",
       "event_pic": {
-        "2": "./img/events/bodysackYourselfNow.png"
+        "1": "./img/events/bodysackYourselfNow.png"
       }
     },
     {
@@ -31,13 +31,13 @@
     {
       "event_text": "${CHAR} thinks ${char} is pretty fucking too.",
       "event_pic": {
-        "3": "./img/events/prettyFucking.png"
+        "2": "./img/events/prettyFucking.png"
       }
     },
     {
       "event_text": "${CHAR} is putting the Pink Shoes on.",
       "event_pic": {
-        "2": "./img/events/pinkShoes.png"
+        "1": "./img/events/pinkShoes.png"
       }
     },
     {
@@ -68,7 +68,7 @@
     {
       "event_text": "${CHAR} says you should NOT come to their house. They've baked an absolute dogshit cake. Just completely fucked it up. They're so sorry.",
       "event_pic": {
-        "2": "./img/events/dogshitCake.png"
+        "1": "./img/events/dogshitCake.png"
       }
     },
     {
@@ -83,7 +83,7 @@
     {
       "event_text": "${CHAR} knows what you are...",
       "event_pic": {
-        "2": "./img/events/whatYouAre.png"
+        "1": "./img/events/whatYouAre.png"
       }
     },
     {
@@ -204,19 +204,19 @@
         {
           "event_text": "${CHAR} was permanently banned from Twitter for sending death threats.",
           "event_pic": {
-            "2": "./img/events/twitter.png"
+            "1": "./img/events/twitter.png"
           }
         },
         {
           "event_text": "${CHAR} was permanently banned from Twitter for being cringe.",
           "event_pic": {
-            "2": "./img/events/twitter.png"
+            "1": "./img/events/twitter.png"
           }
         },
         {
           "event_text": "${CHAR} was permanently banned from Twitter for disagreeing with you specifically.",
           "event_pic": {
-            "2": "./img/events/twitter.png"
+            "1": "./img/events/twitter.png"
           }
         }
       ]
