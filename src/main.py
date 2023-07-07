@@ -1,10 +1,12 @@
-import tweepy
 import sys
-from tweepy import TweepyException
 from time import sleep
+
+import tweepy
 from dotenv import dotenv_values
+from mastodon import Mastodon, MastodonError
+from tweepy import TweepyException
+
 from func import bot, logging, list_pull, event_str_parse
-from mastodon import Mastodon, MastodonServerError
 
 env = dotenv_values(".env")
 
@@ -53,6 +55,6 @@ while True:
     except TweepyException as e:
         logging.log_error_twt(f'main.py: {e}')
         sleep(30 * 60)
-    except MastodonServerError as e:
+    except MastodonError as e:
         logging.log_error_mstdn(f'main.py: {e}')
         sleep(30 * 60)
