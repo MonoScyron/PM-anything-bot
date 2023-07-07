@@ -41,8 +41,8 @@ class EventParser:
         :return:Parsed text of the event, list of pictures to upload in order
         """
         raw_text = self.flatten("#event#")
-        parsed_text = self.parse_raw_text(raw_text)
-        return parsed_text
+        parsed_text, pics = self.parse_raw_text(raw_text)
+        return parsed_text, pics
 
     def flatten(self, text):
         """
@@ -75,7 +75,7 @@ class EventParser:
                 t = t.removeprefix('{').removesuffix('}')
                 pics.append(t)
 
-        return ' '.join([t for t in split_text]), pics
+        return ''.join([t for t in split_text]), pics
 
 
 def possessive(text: str, *params):
