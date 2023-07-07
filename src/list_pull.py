@@ -5,7 +5,8 @@ Pull objects from list files
 import json
 import random
 from typing import Tuple, Union
-from func import logging
+
+import bot_logging
 
 
 # noinspection PyBroadException
@@ -39,7 +40,7 @@ def pull_event(pull_path) -> Tuple[str, Union[dict, None]]:
 
     except Exception:
         error_msg = f'pull_event(): {event}'
-        logging.log_error(error_msg)
+        bot_logging.log_error(error_msg)
 
 
 def pull_character(is_cap, pull_path, is_def=True, is_plural=False) -> Tuple[str, str]:

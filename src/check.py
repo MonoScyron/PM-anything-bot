@@ -1,5 +1,5 @@
 import json
-from func import event_str_parse
+import event_str_parse
 
 
 def check_all():

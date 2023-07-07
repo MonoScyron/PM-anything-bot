@@ -3,7 +3,9 @@ Manipulate raw event objects from event lists
 """
 
 from typing import Tuple
-from func import list_pull, logging
+
+import bot_logging
+import list_pull
 
 
 def parse_event(event_text, event_pics_d, char_path='./lists/pull_list.json') -> \
@@ -61,7 +63,8 @@ def parse_event_text(text, pull_path) -> Tuple[str, list[str]]:
             elif case == "song":
                 name, pic = list_pull.pull_song(False, pull_path=pull_path)
             else:
-                logging.log_error(f"event_str_parse.py couldn't find case for parsing event text: {case} in\n\t{text}")
+                bot_logging \
+                    .log_error(f"event_str_parse.py couldn't find case for parsing event text: {case} in\n\t{text}")
                 raise ValueError(f"event_str_parse.py couldn't find case for parsing event text: {case} in\n\t{text}")
 
             split_text[i] = name + t

@@ -1,12 +1,14 @@
 import sys
+import threading
 from time import sleep
 
 import tweepy
 from dotenv import dotenv_values
-from mastodon import Mastodon, MastodonError
-from tweepy import TweepyException
+from mastodon import Mastodon
 
-from func import bot, logging, list_pull, event_str_parse
+import bot
+import event_str_parse
+import list_pull
 
 env = dotenv_values(".env")
 
@@ -44,17 +46,16 @@ sleep(wait_arg * 60)
 
 # Post indefinitely every 30 mins
 while True:
-    try:
-        event_text, event_pics_d = list_pull.pull_event('./lists/event_list.json')
-        parsed_text, pics = event_str_parse.parse_event(event_text=event_text, event_pics_d=event_pics_d)
+    event_text, event_pics_d = list_pull.pull_event('./lists/event_list.json')
+    parsed_text, pics = event_str_parse.parse_event(event_text=event_text, event_pics_d=event_pics_d)
 
-        bot.twt_post(twt_api=twt_api, twt_client=twt_client, parsed_text=parsed_text, pics=pics)
-        bot.mstdn_post(mstdn_client=mstdn_client, parsed_text=parsed_text, pics=pics)
+    twt_thread = threading.Thread(target=bot.twt_post(twt_api=twt_api, twt_client=twt_client, parsed_text=parsed_text,
+                                                      pics=pics))
+    mstdn_thread = threading.Thread(target=bot.mstdn_post(mstdn_client=mstdn_client, parsed_text=parsed_text,
+                                                          pics=pics))
+    twt_thread.start()
+    mstdn_thread.start()
+    twt_thread.join()
+    mstdn_thread.join()
 
-        sleep(30 * 60)
-    except TweepyException as e:
-        logging.log_error_twt(f'main.py: {e}')
-        sleep(30 * 60)
-    except MastodonError as e:
-        logging.log_error_mstdn(f'main.py: {e}')
-        sleep(30 * 60)
+    sleep(30 * 60)

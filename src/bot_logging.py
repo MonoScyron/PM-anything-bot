@@ -11,7 +11,7 @@ def log_error(error):
     :param error:Error to be logged
     :return: None
     """
-    with open("./run.log", 'a') as log:
+    with open("run.log", 'a') as log:
         w = str(datetime.now()) + " - ERROR - " + str(error) + "\n"
         log.write(w)
         log.close()
@@ -23,7 +23,7 @@ def log_error_twt(error):
     :param error:Error to be logged
     :return: None
     """
-    with open("./run.log", 'a') as log:
+    with open("run.log", 'a') as log:
         w = str(datetime.now()) + " - ERROR Twitter - " + str(error) + "\n"
         log.write(w)
         log.close()
@@ -35,7 +35,7 @@ def log_error_mstdn(error):
     :param error:Error to be logged
     :return: None
     """
-    with open("./run.log", 'a') as log:
+    with open("run.log", 'a') as log:
         w = str(datetime.now()) + " - ERROR Mastodon - " + str(error) + "\n"
         log.write(w)
         log.close()
@@ -47,7 +47,7 @@ def log_info_twt(info):
     :param info:Message to be logged
     :return: None
     """
-    with open("./run.log", 'a') as log:
+    with open("run.log", 'a') as log:
         w = str(datetime.now()) + " - Info Twitter - " + str(info) + "\n"
         log.write(w)
         log.close()
@@ -59,7 +59,7 @@ def log_info_mstdn(info):
     :param info:Message to be logged
     :return: None
     """
-    with open("./run.log", 'a') as log:
+    with open("run.log", 'a') as log:
         w = str(datetime.now()) + " - Info Mastodon - " + str(info) + "\n"
         log.write(w)
         log.close()
