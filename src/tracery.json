@@ -1,6 +1,6 @@
 {
   "event": [
-    "#char.capitalize# has received 300 lunacy.",
+    "#char.capitalize# has received 300 lunacy.{./img/events/lunacy.png}",
     "Make the replies look like #char.possessive# search history.",
     "#char.capitalize# is getting shoved in this bag too!{./img/events/bodysackYourselfNow.png}",
     "#char.capitalize# is being hunted by the Head for #head crime#.",
