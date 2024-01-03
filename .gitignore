@@ -133,4 +133,5 @@ testing.py
 test_event_list.json
 test_pull_list.json
 
+.idea/
 run.sh

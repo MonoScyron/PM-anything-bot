@@ -1,7 +1,7 @@
 """
 Custom logging in run.log file
 """
-
+import sys
 from datetime import datetime
 
 
@@ -13,6 +13,7 @@ def log_error(error):
     """
     with open("run.log", 'a') as log:
         w = str(datetime.now()) + " - ERROR - " + str(error) + "\n"
+        sys.stderr.write(w)
         log.write(w)
         log.close()
 
@@ -25,6 +26,7 @@ def log_error_twt(error):
     """
     with open("run.log", 'a') as log:
         w = str(datetime.now()) + " - ERROR Twitter - " + str(error) + "\n"
+        sys.stderr.write(w)
         log.write(w)
         log.close()
 
@@ -37,6 +39,7 @@ def log_error_mstdn(error):
     """
     with open("run.log", 'a') as log:
         w = str(datetime.now()) + " - ERROR Mastodon - " + str(error) + "\n"
+        sys.stderr.write(w)
         log.write(w)
         log.close()
 
