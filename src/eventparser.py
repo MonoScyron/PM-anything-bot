@@ -38,7 +38,7 @@ class EventParser:
         """
         Parses an event from the event list
         :param file_path: Path of the tracery file
-        :return:Parsed text of the event, list of pictures to upload in order
+        :return: Parsed text of the event, list of pictures to upload in order
         """
         raw_text = self.flatten("#event#")
         parsed_text, pics = self.parse_raw_text(raw_text)
@@ -48,7 +48,7 @@ class EventParser:
         """
         Uses tracery to flatten given text
         :param text:Text to flatten
-        :return:Flattened text
+        :return: Flattened text
         """
         raw_text = self.__parser.flatten("#event#")
 
@@ -64,7 +64,7 @@ class EventParser:
         """
         Parses raw text from tracery
         :param raw_text:Raw tracery text
-        :return:Parsed text of the event, list of pictures to upload in order
+        :return: Parsed text of the event, list of pictures to upload in order
         """
         split_text = re.split("({.*?})", raw_text)
 

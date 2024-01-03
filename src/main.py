@@ -1,8 +1,6 @@
-import sys
 import threading
-from time import sleep
-
 import tweepy
+
 from dotenv import dotenv_values
 from mastodon import Mastodon
 
@@ -32,29 +30,14 @@ twt_auth = tweepy.OAuth1UserHandler(
 )
 twt_api = tweepy.API(twt_auth)
 
-# Get time to wait until next post
-args = sys.argv
-wait_arg = 0
-if len(args) > 2:
-    raise ValueError("Too many args")
-elif len(args) == 2:
-    wait_arg = int(args[1])
-
-# Wait arg mins before posting
-sleep(wait_arg * 60)
-
 parser = eventparser.EventParser()
-# Post indefinitely every 30 mins
-while True:
-    parsed_text, pics = parser.parse_event()
+parsed_text, pics = parser.parse_event()
 
-    twt_thread = threading.Thread(target=bot.twt_post(twt_api=twt_api, twt_client=twt_client, parsed_text=parsed_text,
+twt_thread = threading.Thread(target=bot.twt_post(twt_api=twt_api, twt_client=twt_client, parsed_text=parsed_text,
+                                                  pics=pics))
+mstdn_thread = threading.Thread(target=bot.mstdn_post(mstdn_client=mstdn_client, parsed_text=parsed_text,
                                                       pics=pics))
-    mstdn_thread = threading.Thread(target=bot.mstdn_post(mstdn_client=mstdn_client, parsed_text=parsed_text,
-                                                          pics=pics))
-    twt_thread.start()
-    mstdn_thread.start()
-    twt_thread.join()
-    mstdn_thread.join()
-
-    sleep(30 * 60)
+twt_thread.start()
+mstdn_thread.start()
+twt_thread.join()
+mstdn_thread.join()
