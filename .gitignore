@@ -132,3 +132,5 @@ dmypy.json
 testing.py
 test_event_list.json
 test_pull_list.json
+
+run.sh
