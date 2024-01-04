@@ -1,7 +1,7 @@
 {
   "event": [
-    "#char.capitalize# has recieved #char.nDef.a# identity.",
-    "#char.capitalize# has recieved #faction.nDef.a# identity.",
+    "Does #char# know?{./img/events/dostThouKnow.png}",
+    "#char.capitalize# has recieved #char or faction.nDef.a# identity.",
     "The fault lies with you, #char.nDef#!",
     "#char.capitalize# knows what colour the electric sheep is.{./img/events/electricSheep.png}",
     "#char.capitalize# has received 300 lunacy.{./img/events/lunacy.png}",
@@ -98,6 +98,7 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Kim Ji-hoon{./img/characters/Kim Ji-hoon.png}",
     "Ahab{./img/characters/Ahab.png}",
     "Crayon{./img/characters/Crayon.png}",
     "Gubo{./img/characters/Gubo.png}",
@@ -449,6 +450,7 @@
     "give them chocolate milk"
   ],
   "game": [
+    "Reverse 1999{./img/events/reverse1999.png}",
     "Fortnite{./img/events/fortnite.png}",
     "Genshin Impact{./img/events/genshin.png}",
     "Roblox{./img/events/roblox.png}",
