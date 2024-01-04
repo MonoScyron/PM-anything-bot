@@ -12,11 +12,11 @@ import bot_logging
 def twt_post(twt_api: tweepy.API, twt_client: tweepy.Client, parsed_text, pics) -> None:
     """
     Send a random tweet from the ProjectMoon Anything Bot and logs the response
-    :param twt_api:Authenticated API of the bot
-    :param twt_client:Authenticated client of the bot on Twitter
-    :param parsed_text:Text for bot to post
-    :param pics:File paths to the pics for the bot to post
-    :return:None
+    :param twt_api: Authenticated API of the bot
+    :param twt_client: Authenticated client of the bot on Twitter
+    :param parsed_text: Text for bot to post
+    :param pics: File paths to the pics for the bot to post
+    :return: None
     """
     try:
         twt_media_ids = []
@@ -35,10 +35,10 @@ def twt_post(twt_api: tweepy.API, twt_client: tweepy.Client, parsed_text, pics) 
 def mstdn_post(mstdn_client: Mastodon, parsed_text, pics) -> None:
     """
     Send a random post on Mastodon from the ProjectMoon Anything Bot and logs the response
-    :param mstdn_client:Authenticated client of the bot on Mastodon
-    :param parsed_text:Text for bot to post
-    :param pics:File paths to the pics for the bot to post
-    :return:None
+    :param mstdn_client: Authenticated client of the bot on Mastodon
+    :param parsed_text: Text for bot to post
+    :param pics: File paths to the pics for the bot to post
+    :return: None
     """
     try:
         mstdn_media_ids = []

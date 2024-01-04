@@ -24,6 +24,12 @@ class EventParser:
     """
 
     def __init__(self, file_path='tracery.json', log=True):
+        """
+        Initialize EventParser
+        :param file_path: Path to tracery json file. Defaults to 'tracery.json'.
+        :param log: Whether to log errors. Defaults to True.
+        """
+
         json_file = open(file_path)
         parser = tracery.Grammar(json.load(json_file))
         json_file.close()
@@ -37,7 +43,6 @@ class EventParser:
     def parse_event(self) -> Tuple[str, list[str]]:
         """
         Parses an event from the event list
-        :param file_path: Path of the tracery file
         :return: Parsed text of the event, list of pictures to upload in order
         """
         raw_text = self.flatten("#event#")
