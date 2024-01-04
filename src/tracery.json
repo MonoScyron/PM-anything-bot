@@ -1,7 +1,7 @@
 {
   "event": [
-    "#char.capitalize# has recieved #char.a.nDef# identity.",
-    "#char.capitalize# has recieved #faction.a# identity.",
+    "#char.capitalize# has recieved #char.nDef.a# identity.",
+    "#char.capitalize# has recieved #faction.nDef.a# identity.",
     "The fault lies with you, #char.nDef#!",
     "#char.capitalize# knows what colour the electric sheep is.{./img/events/electricSheep.png}",
     "#char.capitalize# has received 300 lunacy.{./img/events/lunacy.png}",
