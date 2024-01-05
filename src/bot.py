@@ -9,13 +9,14 @@ from tweepy import TweepyException
 import bot_logging
 
 
-def twt_post(twt_api: tweepy.API, twt_client: tweepy.Client, parsed_text, pics) -> None:
+def twt_post(twt_api: tweepy.API, twt_client: tweepy.Client, parsed_text, pics, log=False) -> None:
     """
     Send a random tweet from the ProjectMoon Anything Bot and logs the response
     :param twt_api: Authenticated API of the bot
     :param twt_client: Authenticated client of the bot on Twitter
     :param parsed_text: Text for bot to post
     :param pics: File paths to the pics for the bot to post
+    :param log: Whether to log info messages
     :return: None
     """
     try:
@@ -26,18 +27,19 @@ def twt_post(twt_api: tweepy.API, twt_client: tweepy.Client, parsed_text, pics) 
         res = twt_client.create_tweet(text=parsed_text, media_ids=twt_media_ids)
         if res.errors:
             bot_logging.log_error_twt(res)
-        else:
+        elif log:
             bot_logging.log_info_twt(res.data)
     except TweepyException as e:
         bot_logging.log_error_twt(f'bot.py: {e}')
 
 
-def mstdn_post(mstdn_client: Mastodon, parsed_text, pics) -> None:
+def mstdn_post(mstdn_client: Mastodon, parsed_text, pics, log=False) -> None:
     """
     Send a random post on Mastodon from the ProjectMoon Anything Bot and logs the response
     :param mstdn_client: Authenticated client of the bot on Mastodon
     :param parsed_text: Text for bot to post
     :param pics: File paths to the pics for the bot to post
+    :param log: Whether to log info messages
     :return: None
     """
     try:
@@ -55,6 +57,8 @@ def mstdn_post(mstdn_client: Mastodon, parsed_text, pics) -> None:
             'content': res.content,
             'media_attachments': modified_media_attachments
         }
-        bot_logging.log_info_mstdn(f'{res_dict}')
+
+        if log:
+            bot_logging.log_info_mstdn(f'{res_dict}')
     except MastodonError as e:
         bot_logging.log_error_mstdn(f'bot.py: {e}')

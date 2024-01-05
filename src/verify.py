@@ -6,7 +6,7 @@ import sys
 from eventparser import EventParser
 
 file_path = 'tracery.json'
-parser = EventParser(file_path=file_path, log=False)
+parser = EventParser(file_path=file_path, log_error=False)
 json_file = open(file_path)
 trace_obj: dict = json.load(json_file)
 json_file.close()
@@ -23,7 +23,7 @@ for k in trace_obj.keys():
 
         for pic in pics:
             if not os.path.exists(pic):
-                sys.stderr.write(f'No such path exists: {pic}')
+                sys.stderr.write(f'No such path exists from {os.getcwd()}: {pic}')
                 exit(1)
 
         print(f'{event}')

@@ -23,11 +23,11 @@ class EventParser:
     Manipulate raw event string from tracery json
     """
 
-    def __init__(self, file_path='tracery.json', log=True):
+    def __init__(self, file_path='tracery.json', log_error=True):
         """
         Initialize EventParser
         :param file_path: Path to tracery json file. Defaults to 'tracery.json'.
-        :param log: Whether to log errors. Defaults to True.
+        :param log_error: Whether to log errors. Defaults to True.
         """
 
         json_file = open(file_path)
@@ -38,7 +38,7 @@ class EventParser:
         parser.add_modifiers(added_mods)
 
         self.__parser = parser
-        self.__log = log
+        self.__log = log_error
 
     def parse_event(self) -> Tuple[str, list[str]]:
         """

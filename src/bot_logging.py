@@ -4,6 +4,8 @@ Custom logging in run.log file
 import sys
 from datetime import datetime
 
+logpath = "run.log"
+
 
 def log_error(error):
     """
@@ -11,7 +13,7 @@ def log_error(error):
     :param error:Error to be logged
     :return: None
     """
-    with open("run.log", 'a') as log:
+    with open(logpath, 'a') as log:
         w = str(datetime.now()) + " - ERROR - " + str(error) + "\n"
         sys.stderr.write(w)
         log.write(w)
@@ -24,7 +26,7 @@ def log_error_twt(error):
     :param error:Error to be logged
     :return: None
     """
-    with open("run.log", 'a') as log:
+    with open(logpath, 'a') as log:
         w = str(datetime.now()) + " - ERROR Twitter - " + str(error) + "\n"
         sys.stderr.write(w)
         log.write(w)
@@ -37,7 +39,7 @@ def log_error_mstdn(error):
     :param error:Error to be logged
     :return: None
     """
-    with open("run.log", 'a') as log:
+    with open(logpath, 'a') as log:
         w = str(datetime.now()) + " - ERROR Mastodon - " + str(error) + "\n"
         sys.stderr.write(w)
         log.write(w)
@@ -50,7 +52,7 @@ def log_info_twt(info):
     :param info:Message to be logged
     :return: None
     """
-    with open("run.log", 'a') as log:
+    with open(logpath, 'a') as log:
         w = str(datetime.now()) + " - Info Twitter - " + str(info) + "\n"
         log.write(w)
         log.close()
@@ -62,7 +64,7 @@ def log_info_mstdn(info):
     :param info:Message to be logged
     :return: None
     """
-    with open("run.log", 'a') as log:
+    with open(logpath, 'a') as log:
         w = str(datetime.now()) + " - Info Mastodon - " + str(info) + "\n"
         log.write(w)
         log.close()
