@@ -1,5 +1,6 @@
 {
   "event": [
+    "#char.capitalize# has been buffed with #buff#.",
     "The manager has shot an execution bullet at #char#.",
     "A resonance tuning fork has fused #char.frontHalf##char.backHalf#!",
     "Does #char# know?{./img/events/dostThouKnow.png}",
@@ -100,6 +101,10 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Niko{./img/characters/Niko.png}",
+    "Pilot{./img/characters/Pilot.png}",
+    "Pip{./img/characters/Pip.png}",
+    "Siegfried{./img/characters/Siegfried.png}",
     "Allen{./img/characters/Allen.png}",
     "Bamboo Hat Kim{./img/characters/Bamboo Hat Kim.png}",
     "Bayard{./img/characters/Bayard.png}",
@@ -441,13 +446,20 @@
     "White",
     "Brown"
   ],
+  "buff": [
+    "10 Attack Power Up{./img/events/Attack Power Up.png}",
+    "10 Defense Power Up{./img/events/Defense Power Up.png}",
+    "5 Plus Coin Boost{./img/events/Plus Coin Boost.png}",
+    "10 Damage Up{./img/events/Damage Up.png}",
+    "10 Protection{./img/events/Protection.png}"
+  ],
   "debuff": [
-    "50 burn{./img/events/burn.png}",
-    "50 bleed{./img/events/bleed.png}",
-    "50 rupture{./img/events/rupture.png}",
-    "50 sinking{./img/events/sinking.png}",
-    "50 tremor{./img/events/tremor.png}",
-    "10 fragile{./img/events/fragile.png}"
+    "50 Burn{./img/events/burn.png}",
+    "50 Bleed{./img/events/bleed.png}",
+    "50 Rupture{./img/events/rupture.png}",
+    "50 Sinking{./img/events/sinking.png}",
+    "50 Tremor{./img/events/tremor.png}",
+    "10 Fragile{./img/events/fragile.png}"
   ],
   "floor": [
     "General Works{./img/events/genWorksFloor.png}",
