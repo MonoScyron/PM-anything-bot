@@ -1,5 +1,6 @@
 {
   "event": [
+    "The manager has shot an execution bullet at #char#.",
     "A resonance tuning fork has fused #char.frontHalf##char.backHalf#!",
     "Does #char# know?{./img/events/dostThouKnow.png}",
     "#char.capitalize# has recieved #char or faction.nDef.a# identity.",
@@ -95,7 +96,7 @@
     "#char.capitalize# was forced to drink cement when they were 12",
     "#char.capitalize# distorted, and #char# is the reason why!",
     "#char.capitalize# manifested their EGO, and #char# is the reason why!",
-    "#char.capitalize# just inflicted #status effect# on #char#.",
+    "#char.capitalize# just inflicted #debuff# on #char#.",
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
@@ -440,7 +441,7 @@
     "White",
     "Brown"
   ],
-  "status effect": [
+  "debuff": [
     "50 burn{./img/events/burn.png}",
     "50 bleed{./img/events/bleed.png}",
     "50 rupture{./img/events/rupture.png}",

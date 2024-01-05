@@ -55,7 +55,7 @@ class EventParser:
         :param text:Text to flatten
         :return: Flattened text
         """
-        raw_text = self.__parser.flatten("#event#")
+        raw_text = self.__parser.flatten("#event#").replace("  ", " ")
 
         if '((' in raw_text:
             if self.__log:
