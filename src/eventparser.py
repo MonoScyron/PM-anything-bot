@@ -83,6 +83,26 @@ class EventParser:
         return ''.join([t for t in split_text]), pics
 
 
+def front_half(text: str, *params):
+    if '{' in text and '}' in text:
+        split = text.split('{')
+        h = len(split[0]) // 2
+        front = split[0][:h]
+        return front + '{' + split[1]
+    else:
+        return text[:len(text) // 2]
+
+
+def back_half(text: str, *params):
+    if '{' in text and '}' in text:
+        split = text.split('{')
+        h = len(split[0]) // 2
+        back = split[0][h:]
+        return back + '{' + split[1]
+    else:
+        return text[len(text) // 2:]
+
+
 def possessive(text: str, *params):
     return text + "'s"
 
@@ -96,5 +116,7 @@ def nDef(text: str, *params):
 
 added_mods = {
     'possessive': possessive,
-    'nDef': nDef
+    'nDef': nDef,
+    'frontHalf': front_half,
+    'backHalf': back_half
 }

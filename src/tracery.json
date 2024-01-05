@@ -1,5 +1,6 @@
 {
   "event": [
+    "A resonance tuning fork has fused #char.frontHalf##char.backHalf#!",
     "Does #char# know?{./img/events/dostThouKnow.png}",
     "#char.capitalize# has recieved #char or faction.nDef.a# identity.",
     "The fault lies with you, #char.nDef#!",
