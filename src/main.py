@@ -8,11 +8,7 @@ from mastodon import Mastodon
 import bot
 import eventparser
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.abspath(os.path.join(script_dir, os.pardir))
-env_file_path = os.path.join(parent_dir, '.env')
-
-env = dotenv_values(env_file_path)
+env = dotenv_values('.env')
 
 mstdn_client = Mastodon(
     access_token=env.get("MSTDN_ACCESS_TOKEN"),
