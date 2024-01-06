@@ -1,8 +1,8 @@
 import json
 import re
-from typing import Tuple
-
 import tracery
+
+from typing import Tuple
 from tracery.modifiers import base_english
 
 import bot_logging
