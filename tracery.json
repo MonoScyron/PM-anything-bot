@@ -1,5 +1,8 @@
 {
   "event": [
+    "#char.capitalize# is planning world domination.",
+    "#char.capitalize# just gave #hug# a hug.",
+    "#char.capitalize# is feeling a bit quirky tonight.",
     "#char.capitalize# has been buffed with #buff#.",
     "The manager has shot an execution bullet at #char#.",
     "A resonance tuning fork has fused #char.frontHalf##char.backHalf#!",
@@ -418,6 +421,10 @@
     "the Thumb{./img/factions/The Thumb.png}",
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "hug": [
+    "#char#",
+    "you"
   ],
   "song": [
     "Salt, Pepper, Birds, And the Thought Police{./img/songs/thoughtPolice.png}",
