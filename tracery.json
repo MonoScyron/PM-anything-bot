@@ -39,7 +39,7 @@
     "#char.capitalize#, #char#, and #char# have formed an office together!",
     "#char.capitalize#, #char#, #char#, and #char# have formed a syndicate together!",
     "One will protect you, the others will try to kill you: #char.capitalize#, #char#, #char#, and #char#.",
-    "#char.capitalize# just got hit by a bus driven by #char#!{./img/events/bus.png}",
+    "#char.capitalize# just got hit by a bus{./img/events/bus.png} driven by #char#!",
     "Don't tell the Head, but #char# doesn't pay their taxes.",
     "Who would win in a fistfight? #char.capitalize# or #char#?",
     "#char.capitalize# pushed #char# off a building! How could they?{./img/events/building.png}",
