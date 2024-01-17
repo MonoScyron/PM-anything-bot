@@ -105,6 +105,9 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Abel{./img/characters/Abel.png}",
+    "Abram{./img/characters/Abram.png}",
+    "Adam{./img/characters/Adam.png}",
     "Niko{./img/characters/Niko.png}",
     "Pilot{./img/characters/Pilot.png}",
     "Pip{./img/characters/Pip.png}",
