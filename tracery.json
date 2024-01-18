@@ -1,5 +1,7 @@
 {
   "event": [
+    "#char.capitalize# approves of the tweet below.",
+    "Due to complications with their VA, #char# will now be voiced by Chris Pratt.{./img/events/chrisPratt.png}",
     "#char.possessive# compass was swallowed by #char#.",
     "#char.capitalize# is planning world domination.",
     "#char.capitalize# just gave #hug# a hug.",
