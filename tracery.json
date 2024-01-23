@@ -1,5 +1,9 @@
 {
   "event": [
+    "#char.capitalize# has breached containment and caused a #emergency level# trumpet.",
+    "#char.capitalize# cried themselves to sleep last night.",
+    "You've been #char.nDef.ed#!",
+    "#char.capitalize# left the scene after spreading misinformation.",
     "#char.capitalize# is currently fishing. They're #fishing#.",
     "#char.capitalize# has gotten into a 200 Tweet long fight with #char#.",
     "#char.capitalize# approves of the tweet below.",
@@ -66,7 +70,7 @@
     "#char.capitalize# just became a member of #faction#!",
     "#char.capitalize# is wanted for committing 27 war crimes during the Smoke War.",
     "Would you fight #char# for 1 million dollars?",
-    "#Char or Faction# has hired #char or faction# to kill #char#.",
+    "#char or faction.capitalize# has hired #char or faction# to kill #char#.",
     "#char.capitalize# is at #char.possessive# house! What could they be doing there?",
     "#char.capitalize# and #char# made a Youtube channel together which they haven't used since 2016.",
     "#char.capitalize# and #char# got into a knife fight!",
@@ -430,6 +434,11 @@
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
   ],
+  "emergency level": [
+    "first",
+    "second",
+    "third"
+  ],
   "fishing": [
     "feared by fish",
     "being dragged into the water"
@@ -512,10 +521,6 @@
     "Lobotomy Corporation{./img/events/lobotomyCorporation.png}",
     "Library of Ruina{./img/events/libraryOfRuina.png}",
     "Limbus Company{./img/events/LimbusCompany.png}"
-  ],
-  "Char or Faction": [
-    "#char.capitalize#",
-    "#faction.capitalize#"
   ],
   "char or faction": [
     "#char#",
