@@ -509,6 +509,9 @@
     "give them chocolate milk"
   ],
   "game": [
+    "Cyberpunk 2077{./img/events/cyberpunk.png}",
+    "Persona 5{./img/events/persona5.png}",
+    "Lethal Company{./img/events/lethalCompany.png}",
     "Reverse 1999{./img/events/reverse1999.png}",
     "Fortnite{./img/events/fortnite.png}",
     "Genshin Impact{./img/events/genshin.png}",
