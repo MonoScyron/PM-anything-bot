@@ -66,7 +66,7 @@
     "#char.capitalize# has gone missing!{./img/events/missing.png}",
     "#char.capitalize# did absolutely nothing wrong.",
     "#char.capitalize# did absolutely everything wrong.",
-    "#char.capitalize# just dropkicked a homophobe to the Outskirts.{./img/events/outskirts.png}",
+    "#char.capitalize# just dropkicked a #jackass# to #jackass location#.",
     "#char.capitalize# just became a member of #faction#!",
     "#char.capitalize# is wanted for committing 27 war crimes during the Smoke War.",
     "Would you fight #char# for 1 million dollars?",
@@ -433,6 +433,14 @@
     "the Thumb{./img/factions/The Thumb.png}",
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "jackass": [
+    "homophobe",
+    "racist"
+  ],
+  "jackass location": [
+    "the Outskirts{./img/events/outskirts.png}",
+    "the Great Lake{./img/events/greatLake.png}"
   ],
   "emergency level": [
     "first",
