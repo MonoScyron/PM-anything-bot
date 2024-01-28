@@ -399,7 +399,7 @@
     "Pinocchio{./img/abnos/Pinocchio.png}",
     "Scaredy Cat{./img/abnos/Scaredy Cat.png}",
     "Silent Girl{./img/abnos/Silent Girl.png}",
-    "the Adult who Lies{./img/abnos/The Adult who Lies.png}",
+    "the Adult who Lies{./img/abnos/The Adult Who Lies.png}",
     "the Jester of Nihil{./img/abnos/The Jester of Nihil.png}",
     "the Price of Silence{./img/abnos/The Price of Silence.png}",
     "the Road Home{./img/abnos/The Road Home.png}",
@@ -526,7 +526,8 @@
     "Roblox{./img/events/roblox.png}",
     "Arknights{./img/events/arknights.png}",
     "Uma Musume{./img/events/umaMusume.png}",
-    "Blue Archive{./img/events/blueArchive.png}"
+    "Blue Archive{./img/events/blueArchive.png}",
+    "Persona 1{./img/events/persona1.png}"
   ],
   "peak": [
     "Lobotomy Corporation{./img/events/lobotomyCorporation.png}",
