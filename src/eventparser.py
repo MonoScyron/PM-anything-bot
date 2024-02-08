@@ -47,6 +47,7 @@ class EventParser:
         """
         raw_text = self.flatten("#event#")
         parsed_text, pics = self.parse_raw_text(raw_text)
+        parsed_text = re.sub(r'\s+', ' ', parsed_text)
         return parsed_text, pics
 
     def flatten(self, text):
@@ -55,7 +56,7 @@ class EventParser:
         :param text:Text to flatten
         :return: Flattened text
         """
-        raw_text = self.__parser.flatten("#event#").replace("  ", " ")
+        raw_text = self.__parser.flatten(text)
 
         if '((' in raw_text:
             if self.__log:
