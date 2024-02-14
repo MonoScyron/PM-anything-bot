@@ -4,7 +4,7 @@
     "My #char.nDef# can grow and shrink... Just like this!",
     "Diversity win! #char.capitalize# has become something vaguely nonhuman!",
     "#char.capitalize# has been gifted a Bongy plushie.{./img/events/bongyPlush.png}",
-    "#char.capitalize# has breached containment and caused a #emergency level# trumpet.",
+    "#char.capitalize# has breached containment and #breach#.",
     "#char.capitalize# cried themselves to sleep last night.",
     "You've been #char.nDef.ed#!",
     "#char.capitalize# left the scene after spreading misinformation.",
@@ -454,10 +454,12 @@
     "the Outskirts{./img/events/outskirts.png}",
     "the Great Lake{./img/events/greatLake.png}"
   ],
-  "emergency level": [
-    "first",
-    "second",
-    "third"
+  "breach": [
+    "caused a first trumpet",
+    "caused a second trumpet",
+    "caused a third trumpet",
+    "got beat up by a horde of clerks on their way out",
+    "got soloed by an ALEPH geared nugget"
   ],
   "fishing": [
     "feared by fish",
