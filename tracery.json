@@ -117,6 +117,9 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Missed Reaper{./img/abnos/Missed Reaper.png}",
+    "Clown Smiling At Me{./img/abnos/Clown Smiling At Me.png}",
+    "Norinori{./img/abnos/Norinori.png}",
     "Abel{./img/characters/Abel.png}",
     "Abram{./img/characters/Abram.png}",
     "Adam{./img/characters/Adam.png}",
