@@ -531,6 +531,7 @@
     "give them chocolate milk"
   ],
   "game": [
+    "Ultrakill{./img/events/ultrakill.png}",
     "Cyberpunk 2077{./img/events/cyberpunk.png}",
     "Persona 5{./img/events/persona5.png}",
     "Lethal Company{./img/events/lethalCompany.png}",
