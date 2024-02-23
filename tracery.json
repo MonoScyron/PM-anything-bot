@@ -117,6 +117,9 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Jun{./img/characters/Jun.png}",
+    "Caiman{./img/characters/Caiman.png}",
+    "Aeng-du{./img/characters/Aeng-du.png}",
     "Abel{./img/characters/Abel.png}",
     "Abram{./img/characters/Abram.png}",
     "Adam{./img/characters/Adam.png}",
