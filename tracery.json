@@ -1,5 +1,6 @@
 {
   "event": [
+    "i hate #char# i want to #act of hate#",
     "#char.capitalize# just faked a #peak# speedrun and #speedrun#.",
     "My #char.nDef# can grow and shrink... Just like this!",
     "Diversity win! #char.capitalize# has become something vaguely nonhuman!",
@@ -440,6 +441,13 @@
     "the Thumb{./img/factions/The Thumb.png}",
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "act of hate": [
+    "throw them at a wall",
+    "claim their bones",
+    "put legos all over the floor under them",
+    "steal their hair coupons",
+    "steal their lunch money"
   ],
   "speedrun": [
     "got away with it",
