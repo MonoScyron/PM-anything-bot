@@ -1,5 +1,6 @@
 {
   "event": [
+    "#char# is bored, they might #bored# later.",
     "#char.capitalize# stole Ricardo’s hair coupons.{./img/events/hairCoupons.png}",
     "#char.capitalize# just fed an ableist to the sweepers.{./img/events/sweepers.png}",
     "i hate #char# i want to #act of hate#",
@@ -443,6 +444,11 @@
     "the Thumb{./img/factions/The Thumb.png}",
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "bored": [
+    "commit ensurance fraud",
+    "fight a hydrogen bomb",
+    "hunt down a whale"
   ],
   "act of hate": [
     "throw them at a wall",
