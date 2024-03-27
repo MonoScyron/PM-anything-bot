@@ -1,6 +1,7 @@
 {
   "event": [
-    "#char# is bored, they might #bored# later.",
+    "#char.capitalize# are you okay? You've barely touched your Myo themed carrot cake.{./img/events/myoCake.png}",
+    "#char.capitalize# is bored, they might #bored# later.",
     "#char.capitalize# stole Ricardo’s hair coupons.{./img/events/hairCoupons.png}",
     "#char.capitalize# just fed an ableist to the sweepers.{./img/events/sweepers.png}",
     "i hate #char# i want to #act of hate#",
