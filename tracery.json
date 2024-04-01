@@ -125,6 +125,11 @@
     "Ayin{./img/characters/Ayin.png}"
   ],
   "char_": [
+    "Nelly{./img/characters/Nelly.png}",
+    "Hindley{./img/characters/Hindley.png}",
+    "Josephine{./img/characters/Josephine.png}",
+    "Catherine{./img/characters/Catherine.png}",
+    "Linton{./img/characters/Linton.png}",
     "Jun{./img/characters/Jun.png}",
     "Caiman{./img/characters/Caiman.png}",
     "Aeng-du{./img/characters/Aeng-du.png}",
@@ -421,6 +426,7 @@
     "the Servant of Wrath{./img/abnos/The Servant of Wrath.png}"
   ],
   "faction": [
+    "the Blade Lineage{./img/factions/Blade Lineage.png}",
     "the Kurokumo Clan{./img/factions/Kurokumo Clan.png}",
     "the Puppets{./img/factions/Puppets.png}",
     "the Cinq Association{./img/factions/The Cinq Association.png}",
