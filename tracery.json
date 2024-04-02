@@ -122,9 +122,6 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
-    "Ayin{./img/characters/Ayin.png}"
-  ],
-  "char_": [
     "Nelly{./img/characters/Nelly.png}",
     "Hindley{./img/characters/Hindley.png}",
     "Josephine{./img/characters/Josephine.png}",
