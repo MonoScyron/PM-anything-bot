@@ -1,5 +1,6 @@
 {
   "event": [
+    "#char.capitalize# has beaten the fraud allegations.",
     "#char.capitalize# are you okay? You've barely touched your Myo themed carrot cake.{./img/events/myoCake.png}",
     "#char.capitalize# is bored, they might #bored# later.",
     "#char.capitalize# stole Ricardo’s hair coupons.{./img/events/hairCoupons.png}",
@@ -122,6 +123,7 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Aseah{./img/characters/Aseah.png}",
     "Nelly{./img/characters/Nelly.png}",
     "Hindley{./img/characters/Hindley.png}",
     "Josephine{./img/characters/Josephine.png}",
