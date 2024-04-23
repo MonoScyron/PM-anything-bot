@@ -1,9 +1,10 @@
 {
   "event": [
+    "#char.capitalize# must be the reason why #char# has given up their smiles.",
     "#actor# is playing #char# in a #peak# movie adaptation.",
     "#char.capitalize# has become an Arbiter of the Head.",
     "Clear all #char.s#",
-    "#char.capitalize# is going to kill every version of themselves so #char# will be #kill all#.",
+    "#char.capitalize# is going to kill every version of themselves so #char# will be happy.",
     "#char.capitalize# has beaten the fraud allegations.",
     "#char.capitalize# are you okay? You've barely touched your Myo themed carrot cake.{./img/events/myoCake.png}",
     "#char.capitalize# is bored, they might #bored# later.",
@@ -472,10 +473,6 @@
     "Mads Mikkelsen",
     "Natalie Portman",
     "Michelle Yeoh"
-  ],
-  "kill all": [
-    "happy",
-    "fucking miserable"
   ],
   "bored": [
     "commit insurance fraud",
