@@ -1,5 +1,6 @@
 {
   "event": [
+    "#char.capitalize# has been gifted #gift#.",
     "#char.capitalize# must be the reason why #char# has given up their smiles.",
     "#actor# is playing #char# in a #peak# movie adaptation.",
     "#char.capitalize# has become an Arbiter of the Head.",
@@ -458,6 +459,17 @@
     "the Thumb{./img/factions/The Thumb.png}",
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "gift": [
+    "a comically large spoon",
+    "a gun",
+    "a fursuit",
+    "shampoo",
+    "hair coupons",
+    "a free hamhampangpang meal",
+    "a maid outfit",
+    "a bongbong autograph",
+    "a free warp train ticket from #char#"
   ],
   "fucked up": [
     "their house. They've baked an absolute dogshit cake. Just completely fucked it up. They're so sorry{./img/events/dogshitCake.png}",

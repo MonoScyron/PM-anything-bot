@@ -115,9 +115,31 @@ def nDef(text: str, *params):
         return text
 
 
+def s_base(text: str):
+    if text[-1] in "shxSHX":
+        return text + "es"
+    elif text[-1] in "yY":
+        if text[-2] not in "aeiouAEIOU":
+            return text[:-1] + "ies"
+        else:
+            return text + "s"
+    else:
+        return text + "s"
+
+
+def s(text: str, *params):
+    if '{' in text and '}' in text:
+        split = text.split('{')
+        new_text = s_base(split[0])
+        return new_text + '{' + split[1]
+    else:
+        return s_base(text)
+
+
 added_mods = {
     'possessive': possessive,
     'nDef': nDef,
     'frontHalf': front_half,
-    'backHalf': back_half
+    'backHalf': back_half,
+    's': s
 }
