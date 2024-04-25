@@ -31,11 +31,8 @@ class EventParser:
         """
 
         json_file = open(file_path)
-        parser = tracery.Grammar(json.load(json_file))
+        parser = get_bot_tracery_generator(json.load(json_file))
         json_file.close()
-
-        parser.add_modifiers(base_english)
-        parser.add_modifiers(added_mods)
 
         self.__parser = parser
         self.__log = log_error
@@ -116,6 +113,8 @@ def nDef(text: str, *params):
 
 
 def s_base(text: str):
+    if len(text) == 0:
+        return text
     if text[-1] in "shxSHX":
         return text + "es"
     elif text[-1] in "yY":
@@ -143,3 +142,10 @@ added_mods = {
     'backHalf': back_half,
     's': s
 }
+
+
+def get_bot_tracery_generator(grammar):
+    new_parser = tracery.Grammar(grammar)
+    new_parser.add_modifiers(base_english)
+    new_parser.add_modifiers(added_mods)
+    return new_parser
