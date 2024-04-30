@@ -2,10 +2,8 @@
   "event": [
     "#char.capitalize# has been gifted #gift#.",
     "#char.capitalize# must be the reason why #char# has given up their smiles.",
-    "#actor# is playing #char# in a #peak# movie adaptation.",
-    "#char.capitalize# has become an Arbiter of the Head.",
+    "#char.capitalize# has become #head agent#.",
     "Clear all #char.s#",
-    "#char.capitalize# is going to kill every version of themselves so #char# will be happy.",
     "#char.capitalize# has beaten the fraud allegations.",
     "#char.capitalize# are you okay? You've barely touched your Myo themed carrot cake.{./img/events/myoCake.png}",
     "#char.capitalize# is bored, they might #bored# later.",
@@ -460,6 +458,11 @@
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
   ],
+  "head agent": [
+    "an Arbiter of the Head",
+    "a Beholder of the Eye",
+    "an Executioner of the Claw"
+  ],
   "gift": [
     "a comically large spoon",
     "a gun",
@@ -468,23 +471,12 @@
     "hair coupons",
     "a free hamhampangpang meal",
     "a maid outfit",
-    "a bongbong autograph",
+    "a BongBong autograph",
     "a free warp train ticket from #char#"
   ],
   "fucked up": [
     "their house. They've baked an absolute dogshit cake. Just completely fucked it up. They're so sorry{./img/events/dogshitCake.png}",
     "the cemetery today, they're having an absolute dogshit funeral. Just completely fucked it up. They're so sorry"
-  ],
-  "actor": [
-    "Chris Pratt",
-    "Cillian Murphy",
-    "Leonardo DiCaprio",
-    "Zendaya",
-    "Robert Downey Jr.",
-    "Tom Holland",
-    "Mads Mikkelsen",
-    "Natalie Portman",
-    "Michelle Yeoh"
   ],
   "bored": [
     "commit insurance fraud",
