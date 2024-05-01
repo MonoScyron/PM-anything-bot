@@ -1,5 +1,6 @@
 {
   "event": [
+    "#char.capitalize# has accidentaly clicked on #ad# AD.",
     "#char.capitalize# has been gifted #gift#.",
     "#char.capitalize# must be the reason why #char# has given up their smiles.",
     "#char.capitalize# has become #head agent#.",
@@ -457,6 +458,12 @@
     "the Thumb{./img/factions/The Thumb.png}",
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "ad": [
+    "a #faction# recruitment",
+    "a \"lonely single moms in your area\"",
+    "a Pierre’s Bistro",
+    "an obviously virus-filled"
   ],
   "head agent": [
     "an Arbiter of the Head",
