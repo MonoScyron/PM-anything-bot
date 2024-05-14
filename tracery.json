@@ -460,7 +460,7 @@
     "W. Corp{./img/factions/W. Corp.png}"
   ],
   "ad": [
-    "a #faction# recruitment",
+    "a #faction.nDef# recruitment",
     "a \"lonely single moms in your area\"",
     "a Pierre’s Bistro",
     "an obviously virus-filled"
