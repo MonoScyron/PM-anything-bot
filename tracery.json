@@ -1,5 +1,6 @@
 {
   "event": [
+    "#char.capitalize# has claimed #char.possessive# bones.",
     "#char.capitalize# has accidentaly clicked on #ad# AD.",
     "#char.capitalize# has been gifted #gift#.",
     "#char.capitalize# must be the reason why #char# has given up their smiles.",
