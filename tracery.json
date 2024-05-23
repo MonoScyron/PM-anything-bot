@@ -1,5 +1,6 @@
 {
   "event": [
+    "#char.capitalize# has #grass#.",
     "#char.capitalize# has claimed #char.possessive# bones.",
     "#char.capitalize# has accidentaly clicked on #ad# AD.",
     "#char.capitalize# has been gifted #gift#.",
@@ -129,6 +130,12 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Gulae{./img/characters/Peccatulum Gulae.png}",
+    "Irae{./img/characters/Peccatulum Irae.png}",
+    "Luxuriae{./img/characters/Peccatulum Luxuriae.png}",
+    "Morositatis{./img/characters/Peccatulum Morositatis.png}",
+    "Pigritiae{./img/characters/Peccatulum Pigritiae.png}",
+    "Surperbiae{./img/characters/Peccatulum Superbiae.png}",
     "Aseah{./img/characters/Aseah.png}",
     "Nelly{./img/characters/Nelly.png}",
     "Hindley{./img/characters/Hindley.png}",
@@ -459,6 +466,10 @@
     "the Thumb{./img/factions/The Thumb.png}",
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "grass": [
+    "touched grass",
+    "touched grass and expontaneously combusted"
   ],
   "ad": [
     "a #faction.nDef# recruitment",
