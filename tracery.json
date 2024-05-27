@@ -1,5 +1,8 @@
 {
   "event": [
+    "#char.capitalize# has been nerfed for being too broken in the Mirror Dungeon.",
+    "#char.capitalize# is suppressing the #ordeal#.",
+    "#char.capitalize# and #char# are suppressing the #ordeal#.",
     "#char.capitalize# has #grass#.{./img/events/touchGrass.png}",
     "#char.capitalize# has claimed #char.possessive# bones.",
     "#char.capitalize# has accidentaly clicked on #ad# AD.",
@@ -130,6 +133,10 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "the White Fixer{./img/characters/White Fixer.png}",
+    "the Pale Fixer{./img/characters/Pale Fixer.png}",
+    "the Red Fixer{./img/characters/Red Fixer.png}",
+    "the Black Fixer{./img/characters/Black Fixer.png}",
     "Gulae{./img/characters/Peccatulum Gulae.png}",
     "Irae{./img/characters/Peccatulum Irae.png}",
     "Luxuriae{./img/characters/Peccatulum Luxuriae.png}",
@@ -466,6 +473,21 @@
     "the Thumb{./img/factions/The Thumb.png}",
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "ordeal": [
+    "Amber Dawn{./img/events/ordeals/Amber Dawn.png}",
+    "Amber Dusk{./img/events/ordeals/Amber Dusk.png}",
+    "Amber Midnight{./img/events/ordeals/Amber Midnight.png}",
+    "Crimson Dawn{./img/events/ordeals/Crimson Dawn.png}",
+    "Crimson Dusk{./img/events/ordeals/Crimson Dusk.png}",
+    "Crimson Noon{./img/events/ordeals/Crimson Noon.png}",
+    "Green Dawn{./img/events/ordeals/Green Dawn.png}",
+    "Green Dusk{./img/events/ordeals/Green Dusk.png}",
+    "Green Midnight{./img/events/ordeals/Green Midnight.png}",
+    "Green Noon{./img/events/ordeals/Green Noon.png}",
+    "Violet Dawn{./img/events/ordeals/Violet Dawn.png}",
+    "Violet Midnight{./img/events/ordeals/Violet Midnight.png}",
+    "Violet Noon{./img/events/ordeals/Violet Noon.png}"
   ],
   "grass": [
     "touched grass",
