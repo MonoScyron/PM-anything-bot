@@ -134,6 +134,15 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Garnet{./img/characters/Garnet.png}",
+    "Lan Yen{./img/characters/Lan Yen.png}",
+    "Denver{./img/characters/Denver.png}",
+    "Rikako{./img/characters/Rikako.png}",
+    "Nanseul{./img/characters/Nanseul.png}",
+    "Jumsoon{./img/characters/Jumsoon.png}",
+    "Pablo{./img/characters/Pablo.png}",
+    "Pop{./img/characters/Pop.png}",
+    "Asura{./img/characters/Asura.png}",
     "the White Fixer{./img/characters/White Fixer.png}",
     "the Pale Fixer{./img/characters/Pale Fixer.png}",
     "the Red Fixer{./img/characters/Red Fixer.png}",
