@@ -136,6 +136,8 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Hubert{./img/characters/Hubert LCB.png}",
+    "the Time Ripper{./img/characters/The Time Ripper.png}",
     "Garnet{./img/characters/Garnet.png}",
     "Lan Yen{./img/characters/Lan Yen.png}",
     "Denver{./img/characters/Denver.png}",
