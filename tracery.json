@@ -1,5 +1,6 @@
 {
   "event": [
+    "#char.capitalize# has been added to Blue Archive as a raid boss.",
     "#char.capitalize# hasn't slept for 10 days and is now seeing #char# in their vision.",
     "#char.capitalize# taped themselves to the ceiling.",
     "#char.capitalize# has tried to ship themselves inside a box into a Nest to bypass legal entrance.",
@@ -58,7 +59,7 @@
     "What do you think #char.possessive# Animal Crossing island would be like?",
     "#char.capitalize# says you should NOT come to #fucked up#.",
     "#char.capitalize# has a Twitter, and #char# fans are in their DNI.",
-    "#char.capitalize# has bought Twitter!",
+    "#brought twitter#",
     "Lock #char#, #char#, and #char# in a room. Who comes out crying first?",
     "#char.capitalize# knows what you are...{./img/events/whatYouAre.png}",
     "#char.capitalize# has been found #found state# #found location#.",
@@ -491,6 +492,10 @@
     "the Thumb{./img/factions/The Thumb.png}",
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "brought twitter": [
+    "#char.capitalize# has bought Twitter!",
+    "#char.capitalize# has bought Twitter and renamed it to X!"
   ],
   "ordeal": [
     "Amber Dawn{./img/events/ordeals/Amber Dawn.png}",
