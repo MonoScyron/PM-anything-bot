@@ -141,6 +141,8 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Cassetti{./img/characters/Cassetti.png}",
+    "Sasha{./img/characters/Sasha.png}",
     "Hubert{./img/characters/Hubert LCB.png}",
     "the Time Ripper{./img/characters/The Time Ripper.png}",
     "Garnet{./img/characters/Garnet.png}",
