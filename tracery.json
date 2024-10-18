@@ -1,5 +1,6 @@
 {
   "event": [
+    "#char.capitalized# has stolen your #stolen thing#, how could they???",
     "#char.capitalize# is cosplaying as #char#.",
     "#char.capitalize# has split #char# in half.",
     "Focus....on the tip of my #char#!",
@@ -497,6 +498,14 @@
     "the Thumb{./img/factions/The Thumb.png}",
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "stolen thing": [
+    "wallet",
+    "ip address",
+    "car",
+    "gender",
+    "wig",
+    "soul"
   ],
   "brought twitter": [
     "#char.capitalize# has bought Twitter!",
