@@ -1,6 +1,6 @@
 {
   "event": [
-    "#char.capitalized# has stolen your #stolen thing#, how could they???",
+    "#char.capitalize# has stolen your #stolen thing#, how could they???",
     "#char.capitalize# is cosplaying as #char#.",
     "#char.capitalize# has split #char# in half.",
     "Focus....on the tip of my #char#!",
