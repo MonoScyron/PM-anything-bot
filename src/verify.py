@@ -30,6 +30,7 @@ class Verify(unittest.TestCase):
 
                 for pic in pics:
                     self.assertTrue(os.path.exists(pic), msg=f'No such path exists from {os.getcwd()}: {pic}')
+                    self.assertLessEqual(os.path.getsize(pic), 950000, msg=f'Picture is too large {os.getcwd()}: {pic}')
 
     def test_parse_pics(self):
         text, pics = self.parser.parse_raw_text('{testImg1}text1{testImg2}text2{testImg3}')
