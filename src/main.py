@@ -31,7 +31,7 @@ twt_auth = tweepy.OAuth1UserHandler(
     access_token=env.get("TWITTER_ACCESS_TOKEN"),
     access_token_secret=env.get("TWITTER_ACCESS_TOKEN_SECRET")
 )
-twt_api = tweepy.API(twt_auth, wait_on_rate_limit=True)
+twt_api = tweepy.API(twt_auth, retry_count=6, retry_delay=10, wait_on_rate_limit=True)
 
 parser = eventparser.EventParser()
 parsed_text, pics = parser.parse_event()
