@@ -1,5 +1,6 @@
 {
   "event": [
+    "#char.capitalize# is singing #song#.",
     "#char.capitalize# made #char# into their Kindred.",
     "#char.capitalize# is #char.possessive# biggest hero.",
     "#char.capitalize# just fled from Twitter to Bluesky.",
@@ -624,6 +625,7 @@
     "you"
   ],
   "song": [
+    "Hero{./img/songs/hero.png}",
     "Through Patches of Violet{./img/songs/throughPatchesOfViolet.png}",
     "Salt, Pepper, Birds, And the Thought Police{./img/songs/thoughtPolice.png}",
     "Poems of a Machine{./img/songs/poemsOfAMachine.png}",
