@@ -136,3 +136,4 @@ test_pull_list.json
 .idea/
 run.sh
 server_info.db
+/gray.png
