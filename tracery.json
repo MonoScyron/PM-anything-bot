@@ -171,6 +171,10 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Alyssa{./img/characters/Alyssa.png}",
+    "Hohenheim{./img/characters/Hohenheim.png}",
+    "Johann{./img/characters/Johann.png}",
+    "Marton{./img/characters/Marton.png}",
     "Aida{./img/characters/Aida.png}",
     "Alessio{./img/characters/Alessio.png}",
     "Bari{./img/characters/Bari.png}",
