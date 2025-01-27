@@ -1,5 +1,6 @@
 {
   "event": [
+    "#char.capitalize# is crying #crying place#.",
     "#char.capitalize# is afraid of the Monster under their bed...",
     "#char.capitalize# has recieved an EGO ID of #abno#! Wait, why is it #status effect#.",
     "#char.capitalize# has became a menace to the Fandom.",
@@ -654,6 +655,11 @@
     "the Thumb{./img/factions/The Thumb.png}",
     "the Zwei Association{./img/factions/The Zwei Association.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "crying place": [
+    "on their pillow",
+    "in the shower",
+    "on #char.possessive# shoulder"
   ],
   "status effect": [
     "Burn",
