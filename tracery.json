@@ -32,7 +32,7 @@
     "#char.capitalize# has stolen your #stolen thing#, how could they???",
     "#char.capitalize# is cosplaying as #char#.",
     "#char.capitalize# has split #char# in half.",
-    "Focus... on the tip of my #char#!",
+    "Focus... on the tip of my #char.nDef#!",
     "#char.capitalize# has been added to Blue Archive as a raid boss.",
     "#char.capitalize# hasn't slept for 10 days and is now seeing #char# in their vision.",
     "#char.capitalize# taped themselves to the ceiling.",
