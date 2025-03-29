@@ -29,10 +29,13 @@ class EventParser:
         :param file_path: Path to tracery json file. Defaults to 'tracery.json'.
         :param log_error: Whether to log errors. Defaults to True.
         """
+        with open(file_path) as json_file:
+            tracery_file = json.load(json_file)
 
-        json_file = open(file_path)
-        parser = get_bot_tracery_generator(json.load(json_file))
-        json_file.close()
+        # append abno list to char list
+        tracery_file['char'].extend(tracery_file['abno'])
+
+        parser = get_bot_tracery_generator(tracery_file)
 
         self.__parser = parser
         self.__log = log_error
@@ -144,7 +147,7 @@ added_mods = {
 }
 
 
-def get_bot_tracery_generator(grammar):
+def get_bot_tracery_generator(grammar: dict):
     new_parser = tracery.Grammar(grammar)
     new_parser.add_modifiers(base_english)
     new_parser.add_modifiers(added_mods)
