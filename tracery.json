@@ -1,5 +1,6 @@
 {
   "event": [
+    "#special post#",
     "#char.capitalize# #has/has not# saved the #status effect# society.",
     "#char.capitalize# rolls \"Worst Blunt Ever,\" asked to leave the City.",
     "#char.capitalize# is crying #crying place#.",
@@ -174,12 +175,6 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
-    "Carmen{./img/characters/Carmen.png}"
-  ],
-  "abno": [
-    "Carmen{./img/characters/Carmen.png}"
-  ],
-  "char_n": [
     "Jia Qiu{./img/characters/Jia Qiu.png}",
     "Qingtao{./img/characters/Qingtao.png}",
     "Shi Yihua{./img/characters/Shi Yihua.png}",
@@ -430,7 +425,7 @@
     "Tiphereth{./img/characters/Tiphereth.png}",
     "Yesod{./img/characters/Yesod.png}"
   ],
-  "abno_n": [
+  "abno": [
     "Heart of Aspiration{./img/abnos/Heart of Aspiration.png}",
     "Hurting Teddy Bear{./img/abnos/Hurting Teddy Bear.png}",
     "Rose Hunter{./img/abnos/Rose Hunter.png}",
