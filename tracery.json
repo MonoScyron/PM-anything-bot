@@ -1,6 +1,7 @@
 {
   "event": [
     "#special post#",
+    "Tell me #char.nDef#, what does #needs# need?",
     "#char.capitalize# was devoured by Punishing Bird.{./img/events/punishingBirdConsume.png}",
     "#char.capitalize# #has/has not# saved the #status effect# society.",
     "#char.capitalize# reportedly caught trying to parry with Knuckleblaster.",
@@ -592,6 +593,11 @@
   "special post": [
     "kuwabo{./img/events/kuwabo.png}",
     "Awebo{./img/events/punishingBirdAwebo.png}"
+  ],
+  "needs": [
+    "#status effect#",
+    "Hongyuan",
+    "Limbus Company"
   ],
   "has/has not": [
     "has",
