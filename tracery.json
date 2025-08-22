@@ -1,6 +1,7 @@
 {
   "event": [
     "#special post#",
+    "#char.capitalize# has ascended to the seat of H. Corp Family Hierarch.",
     "#char.capitalize# has collected the 7 souls.{./img/events/humanSouls.png}",
     "Tell me #char.nDef#, what does #needs# need?",
     "#char.capitalize# was devoured by Punishing Bird.{./img/events/punishingBirdConsume.png}",
