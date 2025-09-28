@@ -1,6 +1,7 @@
 {
   "event": [
     "#special post#",
+    "#char.capitalize.possessive# S3 now softlocks the game.",
     "#char.capitalize.possessive# head went kaboom.{./img/events/headKaboom.png}",
     "#char.capitalize# has been injected with Cogito and turned into #abno#.",
     "#char.capitalize# has ascended to the seat of H. Corp Family Hierarch.",
@@ -9,7 +10,7 @@
     "#char.capitalize# was devoured by Punishing Bird.{./img/events/punishingBirdConsume.png}",
     "#char.capitalize# #has/has not# saved the #status effect# society.",
     "#char.capitalize# reportedly caught trying to parry with Knuckleblaster.",
-    "#char.capitalize# rolls \"Worst Blunt Ever,\" asked to leave the City.",
+    "#char.capitalize# rolls \"Worst Blunt Ever,\" asked to leave the City.{./img/events/worstJoint.png}",
     "#char.capitalize# is crying #crying place#.",
     "#char.capitalize# is afraid of the Monster under their bed...",
     "#char.capitalize# has recieved an EGO ID of #abno#! Wait, why is it #status effect#.",
@@ -182,6 +183,8 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Mayors{./img/characters/Mayors.png}",
+    "Fabius{./img/characters/Fabius.png}",
     "Aya{./img/characters/Aya.png}",
     "Jia Mu{./img/characters/Jia Mu.png}",
     "Jia Yuanchun{./img/characters/Jia Yuanchun.png}",
