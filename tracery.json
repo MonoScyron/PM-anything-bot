@@ -1,6 +1,7 @@
 {
   "event": [
     "#special post#",
+    "#char.capitalize# is feeling quite cute today :3",
     "#char.capitalize# is doing (CENSORED) and… Goodness, that’s disgusting.",
     "#char.capitalize# got forced into the Cogito Experiment and became a Sephirot!",
     "#char.capitalize# was revived by #char#.",
@@ -828,18 +829,21 @@
     "give them chocolate milk"
   ],
   "game": [
-    "Ultrakill{./img/events/ultrakill.png}",
-    "Cyberpunk 2077{./img/events/cyberpunk.png}",
-    "Persona 5{./img/events/persona5.png}",
-    "Lethal Company{./img/events/lethalCompany.png}",
-    "Reverse 1999{./img/events/reverse1999.png}",
-    "Fortnite{./img/events/fortnite.png}",
-    "Genshin Impact{./img/events/genshin.png}",
-    "Roblox{./img/events/roblox.png}",
-    "Arknights{./img/events/arknights.png}",
-    "Uma Musume{./img/events/umaMusume.png}",
-    "Blue Archive{./img/events/blueArchive.png}",
-    "Persona 1{./img/events/persona1.png}"
+    "Ultrakill{./img/events/games/ultrakill.png}",
+    "Cyberpunk 2077{./img/events/games/cyberpunk.png}",
+    "Persona 5{./img/events/games/persona5.png}",
+    "Lethal Company{./img/events/games/lethalCompany.png}",
+    "Reverse 1999{./img/events/games/reverse1999.png}",
+    "Fortnite{./img/events/games/fortnite.png}",
+    "Genshin Impact{./img/events/games/genshin.png}",
+    "Roblox{./img/events/games/roblox.png}",
+    "Arknights{./img/events/games/arknights.png}",
+    "Uma Musume{./img/events/games/umaMusume.png}",
+    "Blue Archive{./img/events/games/blueArchive.png}",
+    "Persona 1{./img/events/games/persona1.png}",
+    "Elden Ring{./img/events/games/eldenRing.png}",
+    "Minecraft{./img/events/games/minecraft.png}",
+    "Stardew Valley{./img/events/games/stardewValley.png}"
   ],
   "peak": [
     "Lobotomy Corporation{./img/events/lobotomyCorporation.png}",
