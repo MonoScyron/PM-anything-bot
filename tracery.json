@@ -194,6 +194,20 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "a certain Sinclair{./img/characters/ACertainSinclair.png}",
+    "Albina{./img/characters/Albina.png}",
+    "#araya#",
+    "Callisto{./img/characters/Callisto.png}",
+    "Jamila{./img/characters/Jamila.png}",
+    "Kira{./img/characters/Kira.png}",
+    "Lucio{./img/characters/Lucio.png}",
+    "Matthias{./img/characters/Matthias.png}",
+    "Ravi{./img/characters/Ravi.png}",
+    "Ren{./img/characters/Ren.png}",
+    "Rien{./img/characters/Rien.png}",
+    "Shiomi Yoru{./img/characters/ShiomiYoru.png}",
+    "Sora{./img/characters/Sora.png}",
+    "Valencina{./img/characters/Valencina.png}",
     "Mayors{./img/characters/Mayors.png}",
     "Fabius{./img/characters/Fabius.png}",
     "Aya{./img/characters/Aya.png}",
@@ -464,6 +478,13 @@
     "Roland{./img/characters/Roland.png}",
     "Tiphereth{./img/characters/Tiphereth.png}",
     "Yesod{./img/characters/Yesod.png}"
+  ],
+  "araya": [
+    "Araya{./img/characters/ArayaAdult.png}",
+    "Araya{./img/characters/ArayaChild.png}",
+    "Araya{./img/characters/ArayaOld.png}",
+    "Araya{./img/characters/ArayaTeenager.png}",
+    "Araya{./img/characters/ArayaYoungAdult.png}"
   ],
   "abno": [
     "Heart of Aspiration{./img/abnos/Heart of Aspiration.png}",
