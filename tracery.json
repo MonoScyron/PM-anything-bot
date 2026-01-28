@@ -1,6 +1,7 @@
 {
   "event": [
     "#special post#",
+    "#char.capitalize# leaked the next canto and was #leaked#.",
     "#char.capitalize# is feeling quite cute today :3",
     "#char.capitalize# is doing (CENSORED) and… Goodness, that’s disgusting.",
     "#char.capitalize# got forced into the Cogito Experiment and became a Sephirot!",
@@ -480,13 +481,6 @@
     "Tiphereth{./img/characters/Tiphereth.png}",
     "Yesod{./img/characters/Yesod.png}"
   ],
-  "araya": [
-    "Araya{./img/characters/ArayaAdult.png}",
-    "Araya{./img/characters/ArayaChild.png}",
-    "Araya{./img/characters/ArayaOld.png}",
-    "Araya{./img/characters/ArayaTeenager.png}",
-    "Araya{./img/characters/ArayaYoungAdult.png}"
-  ],
   "abno": [
     "Heart of Aspiration{./img/abnos/Heart of Aspiration.png}",
     "Hurting Teddy Bear{./img/abnos/Hurting Teddy Bear.png}",
@@ -630,6 +624,18 @@
     "T. Corp{./img/factions/T. Corp.png}",
     "U. Corp{./img/factions/U. Corp.png}",
     "W. Corp{./img/factions/W. Corp.png}"
+  ],
+  "araya": [
+    "Araya{./img/characters/ArayaAdult.png}",
+    "Araya{./img/characters/ArayaChild.png}",
+    "Araya{./img/characters/ArayaOld.png}",
+    "Araya{./img/characters/ArayaTeenager.png}",
+    "Araya{./img/characters/ArayaYoungAdult.png}"
+  ],
+  "leak": [
+    "shamed",
+    "yelled at",
+    "publicly executed"
   ],
   "special post": [
     "kuwabo{./img/events/kuwabo.png}",
