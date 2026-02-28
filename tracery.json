@@ -1,6 +1,8 @@
 {
   "event": [
     "#special post#",
+    "#char.capitalize# worked with the Plague Doctor and has become the #apostle# Apostle.",
+    "The Plague Doctor{./img/events/plagueDoctorBless.png} hugged #char#.",
     "#char.capitalize# leaked the next canto and was #leaked#.",
     "#char.capitalize# is feeling quite cute today :3",
     "#char.capitalize# is doing (CENSORED) and… Goodness, that’s disgusting.",
@@ -625,6 +627,20 @@
     "U. Corp{./img/factions/U. Corp.png}",
     "W. Corp{./img/factions/W. Corp.png}"
   ],
+  "apostle": [
+    "1st",
+    "2nd",
+    "3rd",
+    "4th",
+    "5th",
+    "6th",
+    "7th",
+    "8th",
+    "9th",
+    "10th",
+    "11th",
+    "12th"
+  ],
   "araya": [
     "Araya{./img/characters/ArayaAdult.png}",
     "Araya{./img/characters/ArayaChild.png}",
@@ -632,7 +648,7 @@
     "Araya{./img/characters/ArayaTeenager.png}",
     "Araya{./img/characters/ArayaYoungAdult.png}"
   ],
-  "leak": [
+  "leaked": [
     "shamed",
     "yelled at",
     "publicly executed"
