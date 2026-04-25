@@ -1,6 +1,7 @@
 {
   "event": [
     "#special post#",
+    "#char.capitalize# has been thrown into a Concept Incinerator.",
     "#char.capitalize# worked with the Plague Doctor and has become the #apostle# Apostle.",
     "The Plague Doctor{./img/events/plagueDoctorBless.png} hugged #char#.",
     "#char.capitalize# leaked the next canto and was #leaked#.",
@@ -198,6 +199,12 @@
     "#char.capitalize# has become the new #color# colored fixer!"
   ],
   "char": [
+    "Alan{./img/characters/Alan.png}",
+    "\u00C9mile Beno\u00EEt{./img/characters/EmileBenoit.png}",
+    "Ted{./img/characters/Ted.png}",
+    "Rufo{./img/characters/Rufo.png}",
+    "Albina{./img/characters/Albina.png}",
+    "Albina{./img/characters/Albina.png}",
     "a certain Sinclair{./img/characters/ACertainSinclair.png}",
     "Albina{./img/characters/Albina.png}",
     "#araya#",
