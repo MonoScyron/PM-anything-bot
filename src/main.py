@@ -43,10 +43,11 @@ twt_thread = threading.Thread(target=bot.twt_post(twt_api=twt_api,
 mstdn_thread = threading.Thread(target=bot.mstdn_post(mstdn_client=mstdn_client, parsed_text=parsed_text, pics=pics))
 bsky_thread = threading.Thread(target=bot.bsky_post(bsky_client=bsky_client, parsed_text=parsed_text, pics=pics))
 
-twt_thread.start()
+# twitter thread disabled since no more free posts
+# twt_thread.start()
 mstdn_thread.start()
 bsky_thread.start()
 
-twt_thread.join()
+# twt_thread.join()
 mstdn_thread.join()
 bsky_thread.join()
